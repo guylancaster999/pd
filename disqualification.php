@@ -15,7 +15,7 @@ print top("Disqualifications");?>
         <br/>
         <br/>
         Disqualification can either be mandatory or discretionary.
-        Disqualification can also be imposed by virtue of the “totting up” provisions.
+        Disqualification can also be imposed by virtue of the &quot;totting up&quot; provisions.
         <br/>
         <br/>
         A disqualification can have far reaching effects often costing you your job, business etc.
@@ -32,4 +32,4 @@ print top("Disqualifications");?>
         <br/>
       </div>
 <?php
-print foot("footer600");?>
+print foot("footer700");?>

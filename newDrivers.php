@@ -21,4 +21,4 @@ If you already have three points and receive the offer of a fixed penalty you mu
 <br/><br/>
 The rules are so severe that you must – CALL US STRAIGHT AWAY
       </div>
- <?php foot('footer600');?>
+ <?php foot('footer700');?>

@@ -18,4 +18,4 @@ print top("No Road Tax");?>
           <br/>
           <br/>
           If you are in any confusion or doubt contact us in total confidence.  </div>
- <?php foot('footer600');?>
+ <?php foot('footer700');?>

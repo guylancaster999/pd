@@ -14,4 +14,4 @@ print top("Road Traffic Accident");?>
            <br/>
           <br/>
       </div>
- <?php foot('footer600');?>
+ <?php foot('footer700');?>

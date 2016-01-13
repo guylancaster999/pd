@@ -10,7 +10,7 @@ print top("Totting Up");?>
       </div>
          <?php contactBar();?>
           <h1>Totting Up</h1>
-          If you get to a position when you have 12 relevant points on your licence, you will be liable to a MINIMUM DISQUALIFICATION OF SIX MONTHS.
+          If you get to a position when you have 12 relevant points on your licence, you will be liable to a <span class="mainGreen">MINIMUM DISQUALIFICATION OF SIX MONTHS</span>.
           If you have one previous disqualification of over 56 days that minimum increases to one year and if you have two such previous disqualifications, then the minimum becomes two years!
           <br/>
           <br/>
@@ -21,10 +21,10 @@ print top("Totting Up");?>
           Even if you are liable under the totting up provisions the law states that you may escape the usual punishment (i.e. six months minimum disqualification) if the court can be convinced &quot;in all the circumstances&quot; that there are grounds for mitigating the usual penalty.
           <br/>
           <br/>
-          Most cases of this type are under the heading of “exceptional hardship” but they need not necessarily be.
+          Most cases of this type are under the heading of &quot;exceptional hardship&quot; but they need not necessarily be.
           <br/>
           <br/>
-        We have an extremely good record of successfully pleading “exceptional hardship” cases and also using wider grounds to avoid totting up bans.
+        We have an extremely good record of successfully pleading &quot;exceptional hardship&quot; cases and also using wider grounds to avoid totting up bans.
           <br/>
           <br/>
           We can tell you precisely what evidence is required including letters from employers, accountants etc.
@@ -34,7 +34,5 @@ print top("Totting Up");?>
           <br/>
           <br/>
           You need expert help as soon as possible.
-           <br/>
-          <br/>
-      </div>
- <?php foot('footer600');?>
+            </div>
+ <?php foot('footer700');?>

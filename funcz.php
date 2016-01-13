@@ -50,20 +50,20 @@ function foot($cls)
             <div><a href="trafficLightOffences.php">Traffic Light Offences</a></div>
             <div><a href="tottingUp.php">Totting Up</a></div>
             <div><a href="drinkDriving.php">Drink Driving</a></div>
-            <div><a href="mobilePhoneDriving.php">Mobile Phone Driving</a>            </div>
-            <div><a href="newDrivers.php" title="new Drivers">New Drivers</a>   </div>
-            <div><a href="speedingOffences.php">Speeding Offences</a>     </div>
-            <div><a href="drivingWhileDisqualified.php">Driving While Disqualified</a>           </div>
+            <div><a href="mobilePhoneDriving.php">Mobile Phone Driving</a></div>
+            <div><a href="newDrivers.php" title="new Drivers">New Drivers</a></div>
+            <div><a href="speedingOffences.php">Speeding Offences</a></div>
+            <div><a href="drivingWhileDisqualified.php">Driving While Disqualified</a> </div>
             <div><a href="openingACarDoor.php">Opening a Car Door</a></div>
             <div><a href="pedestrianCrossing.php">Pedestrian Crossing (failing<br/>to accord precedence)</a></div>
 			      <div><a href="noRoadTax.php">No Road Tax</a></div>
 		        <div> <a href="noMOT.php" title="No MOT Certificate">No MOT</a></div>
 		  		  <br/>
             <div class="menuHdr">Criminal Offences</div>
-            <div><a href="offencesOfViolence.php">Offences of Violence</a>   </div>
-            <div><a href="publicOrderOffences.php">Public Order Offences</a> </div>
+            <div><a href="offencesOfViolence.php">Offences of Violence</a></div>
+            <div><a href="publicOrderOffences.php">Public Order Offences</a></div>
             <div><a href="drugOffences.php">Drug Offences</a> </div>
-            <div><a href="revenueCustomOffences.php">Revenue &amp; Custom Offences</a>  </div>
+            <div><a href="revenueCustomOffences.php">Revenue &amp; Custom Offences</a></div>
             <div><a href="footballSpectators.php">Football Spectators</a></div>
             <br  />
 	        <div>

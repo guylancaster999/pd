@@ -18,4 +18,4 @@ print top(" Traffic Light Offences");?>
 			Not only can successful defences be raised against prosecutions for red light offences but, in certain circumstances, Special Reasons can be pleaded to avoid penalty points even in the event of a conviction.
       PENALTY 3 points + a fine
 			 </div>
-      <?php foot('footer600');?>
+      <?php foot('footer700');?>

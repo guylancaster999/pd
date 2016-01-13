@@ -14,4 +14,4 @@ print top("Driving While Disqualified");?>
            It is occasionally possible to persuade the court to remove a disqualification part-way through.
            We can advise you as to the making of an application to remove a disqualification and represent you at the court hearing.
       </div>
- <?php foot('footer600');?>
+ <?php foot('footer700');?>

@@ -11,4 +11,4 @@ This is contrary to the Football Offences Act 1991 .
 <br/><br/>
 If you are charged with any such offence, <A href="contact.php">contact</a> our office for advice immediately.
    </div>
- <?php foot('footer600');?>
+ <?php foot('footer700');?>

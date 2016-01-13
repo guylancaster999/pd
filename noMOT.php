@@ -13,4 +13,4 @@ print top("No MOT");?>
               <br/>    <br/>
           If you have questions about this matter, <A href="contact.php">contact us</a> for clarification regarding your concerns.
         </div>
- <?php foot('footer600');?>
+ <?php foot('footer700');?>

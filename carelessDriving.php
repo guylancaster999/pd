@@ -20,7 +20,7 @@ print top("Careless Driving");?>
 			  <br/>
 			  <br/>
 			A skid may not be due to lack of care, a sudden emergency should be judged in the course of the driving.
-      A mechanical defect of the vehicle can provide a defence provided the driver had no prior knowledge of it’s existence.
+      A mechanical defect of the vehicle can provide a defence provided the driver had no prior knowledge of it's existence.
 			  <br/>
 			  <br/>
 			We will provide objective practical advice and assistance, and understanding counsel.
@@ -28,4 +28,4 @@ print top("Careless Driving");?>
 			  <br/>
 			Do not face this offence alone, contact us immediately.
       </div>
-<?php foot("footer600");
+<?php foot("footer700");

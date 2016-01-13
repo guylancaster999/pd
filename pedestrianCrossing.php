@@ -2,7 +2,7 @@
 print top("Pedestrian Crossing");?>
 <div class="main">
        <?php contactBar();?>
-          <h1>    Pedestrian Crossing (failing to accord precedence)</h1>
+          <h1>Pedestrian Crossing (failing to accord precedence)</h1>
    It is an offence for a driver of any vehicle to fail to accord precedence to a pedestrian within the limits of an uncontrolled pedestrian crossing.
   <br/>  <br/>
   The penalties include; a fine of £1000.00, a disqualification for any period/ until a test is past. Must endorse unless special reasons can be found to avoid endorsement. 3 points and £60.00 fixed penalty.
@@ -16,4 +16,4 @@ print top("Pedestrian Crossing");?>
   We will provide objective practical advice and assistance, and understanding counsel.
     <br/>  <br/>
   Do not face this offence alone, contact us immediately.  </div>
- <?php foot('footer600');?>
+ <?php foot('footer700');?>

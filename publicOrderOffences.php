@@ -163,15 +163,16 @@ print top("Public Order Offences");?>
  Due to the prevalence of knife crime the sentencing aspect of offences for possession of offensive weapons is increasing.
  It is not a recognised defence in law to arm oneself with a weapon for your own protection.
  <br/><br/>
- The courts define a ‘public place' very widely this will include keeping a knife or baseball bat in the footwell of a car, even if this was kept for the protection of the driver.
+ The courts define a 'public place' very widely this will include keeping a knife or baseball bat in the footwell of a car, even if this was kept for the protection of the driver.
  <br/><br/>
  ‘offensive weapons’ are defined as those Made for use to cause injury i.e. those that are offensive per se and those carried with the intention of causing injury to a person.
  <br/><br/>
- The evidential burden of proving reasonable excuse rests on the defendant.  Such arguements can be used to state that a knife was ceremonial, or a tool of a trade.
+ The evidential burden of proving reasonable excuse rests on the defendant.
+ Such arguements can be used to state that a knife was ceremonial, or a tool of a trade.
  <br/><br/>
  This offence will be punished severely and will often attract custodial sentences.
 <a name="firearms"></a>
 <h2>OFFENCES RELATING TO FIREARMS</h2>
  This is an evolving area of law, currently under statutory reform, if you are charged with any of these offences, <A href="contact.php"> contact us</a> immediately.
         </div>
- <?php foot('footer2700');?>
+ <?php foot('footer3000');?>

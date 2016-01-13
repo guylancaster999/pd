@@ -9,14 +9,18 @@ print top(" Contact Us");?>
             <td>:</td>
             <td>07811 329055</td>
           </tr>
-          <tr><td>&nbsp;</td></tr>
           <tr>
-            <td valign="top">Address</td>
-            <td valign="top">:</td>
+            <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td  >Address</td>
+            <td  >:</td>
             <td>P.D. Solicitors,<br/>75 South Drive,<br/> Chorlton-cum-Hardy,<br/> Manchester
                M21 8ED</td>
           </tr>
-          <tr><td>&nbsp;</td></tr>
+          <tr>
+            <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+          </tr>
           <tr>
             <td>Email</td>
             <td>:</td>
@@ -24,4 +28,4 @@ print top(" Contact Us");?>
             </tr>
           </table>
 </div>
-<?php foot("footer600");
+<?php foot("footer700");

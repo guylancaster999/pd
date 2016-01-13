@@ -27,7 +27,7 @@ print top("No Insurance");?>
 			We will provide objective practical advice and assistance, and understanding counsel.
            <br/>
 			<br/>
-			Do not face this offence alone, contact us immediately.           <br/>
-          <br/>
+			Do not face this offence alone, contact us immediately.
+       
       </div>
-<?php print foot("footer600");?>
+<?php print foot("footer700");?>

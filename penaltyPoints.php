@@ -41,12 +41,11 @@ New Drivers face a different problem.
   If you have six points ordered against your licence within the first two years of passing your driving test, you go back to square one and go back to provisional licence status.
   You then have to take your test all over again.		<br/>
  		<br/>
-
-<div class="mainGreen">
-There are certain ways round it but you need to know what you are doing.
-In any of these situations, <a href="contact.php">contact us</a> AS SOON AS POSSIBLE.
-</div>
+    <div class="mainGreen">
+    There are certain ways round it but you need to know what you are doing.
+    In any of these situations, <a href="contact.php">contact us</a> AS SOON AS POSSIBLE.
+    </div>
 			<br/>
           <br/>
       </div>
- <?php foot('footer600');?>
+ <?php foot('footer700');?>

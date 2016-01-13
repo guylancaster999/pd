@@ -16,4 +16,4 @@ print top("Driving While Disqualified");?>
         We will provide objective practical advice and assistance, and understanding counsel.
         <br/><br/>
         Do not face this offence alone, contact us immediately.    </div>
- <?php foot('footer600');?>
+ <?php foot('footer700');?>
