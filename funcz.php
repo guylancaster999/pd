@@ -18,6 +18,8 @@ print '<html>
       <meta name="keywords" content="Driving Offences, Accidents, Careless Driving Dangerous Driving, Disqualification, Insurance Offences Penalty Points, Traffic Lights, Totting Up, Drunk In Charge, Failure To Provide, Mobile Phones, Young Drivers, Speeding, Driving While Disqualified, Criminal Offences, Offences of Violence, Public Order Offences, Criminal Damage, Drug Offences, Revenue &amp; Customes Offences" />
       <meta name="description" content="Paul Darnborough Solicitors - '.$pgTtl.'" />
       <link rel="stylesheet" href="css/main.css" />
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+      <link rel="icon" href="favicon.ico" type="image/x-icon" />
     </head>
     <body>
         <div class="logo">

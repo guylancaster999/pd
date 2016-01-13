@@ -41,4 +41,4 @@ print top("Homepage");?>
           <br/>
           <br/>
       </div>
-<?php foot('footer800');?>
+<?php foot('footer600');?>
