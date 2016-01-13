@@ -2,10 +2,10 @@
 print top("Careless Driving");?>
        <div class="main">
             <div class="strap0">
-              <span class="strap1">"We will investigate</span>
+              <span class="strap1">&quot;We will investigate</span>
               <span class="strap2">all the prosecution evidence on </span>
               <br/>
-              <span class="strap2">your behalf and advise on the strength of the police case"</span>
+              <span class="strap2">your behalf and advise on the strength of the police case&quot;</span>
               </div>
                <?php contactBar();?>
            <h1>Careless Driving</h1>

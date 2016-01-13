@@ -1,7 +1,8 @@
 <?php
 function contactBar()
 {
-    print '<img src="img/border.jpg" alt="" width="100%"><br/>
+    print '<img src="img/border.jpg" alt="" class="wideBar">
+    <br/>
      <div class="bar">
              <a href="index.php" title="PDS Home Page">Home</a> |
              <a href="contact.php" title="Contact PDS">Contact us</a>
@@ -11,7 +12,8 @@ function contactBar()
 }
 function top($pgTtl)
 {
-print '<html>
+print '<!DOCTYPE html>
+    <html lang="en">
     <head>
       <title>Paul Darnborough Solicitors - '.$pgTtl.'</title>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -63,23 +65,23 @@ function foot($cls)
             <div><a href="drugOffences.php">Drug Offences</a> </div>
             <div><a href="revenueCustomOffences.php">Revenue &amp; Custom Offences</a>  </div>
             <div><a href="footballSpectators.php">Football Spectators</a></div>
-            <br clear="all"/>
+            <br  />
 	        <div>
 			<div class="menuHdr">Information</div>
             <div><a href="contact.php" title="Contact us">Contact Us</a></div>
              <br/>
             </div>
-			<br/>
+			           <br/>
             </div>
-          </div>
-	      <div class="'.$cls.'">
-          <img src="img/border.jpg" alt="" width="100%">
+      <div class="'.$cls.'">
+          <img src="img/border.jpg" alt="" class="wideBar">
           <span class="footText">&copy; Copyright 2010-2016 P.D. Solicitors registration number 5533388.
            Regulated by the Solicitors Regulation Authority and the Solicitors\' Code of Conduct 2007.
           For more information and a copy of the Code of Conduct, visit the <a href="http://www.sra.org.uk">Authority\'s website</a>.
            We are regulated by the the Law society, for more information, click <a href="http://www.lawsociety.org.uk/home">here</a>.
            Our registered address is on our <a href="contact.php">contact page</a>.</span>
         </div>
+
 	 </body>
 </html>';
 return;

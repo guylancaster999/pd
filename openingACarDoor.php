@@ -1,8 +1,7 @@
 <?php require "funcz.php";
 print top("Driving While Disqualified");?>
 <div class="main">
-
-      <?php contactBar();?>
+     <?php contactBar();?>
           <h1>Opening a Car Door</h1>
         It is an offence to open a door of a motor vehicle or trailer on a road so as to cause injury or danger.
         <br/><br/>

@@ -2,10 +2,10 @@
 print top("Mobile Phone  Driving");?>
 <div class="main">
     <div class="strap0">
-        <span class="strap1">"The evidence of the police can oftern be</span>
+        <span class="strap1">&quot;The evidence of the police can oftern be</span>
         <span class="strap1">successfully challenged</span>
          <br/>
-        <span class="strap2">by cross-examination."</span>
+        <span class="strap2">by cross-examination.&quot;</span>
       </div>
       <?php contactBar();?>
           <h1>  Using Your Mobile Phone When Driving</h1>

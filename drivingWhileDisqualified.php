@@ -2,10 +2,10 @@
 print top("Driving While Disqualified");?>
 <div class="main">
     <div class="strap0">
-        <span class="strap1">"It is occasionly possible </span>
+        <span class="strap1">&quot;It is occasionly possible </span>
         <span class="strap2"> to persuade the court to remove  a</span>
          <br/>
-        <span class="strap2">disqualification part way through."</span>
+        <span class="strap2">disqualification part way through.&quot;</span>
       </div>
       <?php contactBar();?>
           <h1>Driving While Disqualified</h1>

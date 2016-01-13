@@ -15,17 +15,25 @@ h2
   font-weight:lighter;
   padding-bottom:4px;
 }
+td
+{
+  font-size       :9pt;
+  color           :#666;
+}
+
 .logo
 {
   position:absolute;
   left:4px;
   top:4px;
+  z-index: 10;
 }
 .slogan
 {
   position:absolute;
   right   :4px;
   top     :4px;
+  z-index: 0;
 }
 .wearehere
 {
@@ -47,6 +55,16 @@ h2
 {
   color           :#393;
 }
+.mainGreen a
+{
+  color           :#393;
+  font-weight   :bold;
+  text-decoration: none;
+}
+.mainGreen a:hover
+{
+  text-decoration: underline;
+}
 .main a
 {
   font-weight   :bold;
@@ -57,7 +75,6 @@ h2
 {
   text-decoration: underline;
 }
-
 .bar a
 {
   font-size      :9pt;
@@ -180,4 +197,8 @@ h2
  	padding-left  	:10px;
  	font-size     	:	8pt;
  	color         	:#666;
+}
+.wideBar
+{
+  width:100%;
 }

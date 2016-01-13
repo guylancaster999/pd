@@ -2,11 +2,11 @@
 print top("Totting Up");?>
 <div class="main">
     <div class="strap0">
-        <span class="strap1">"</span>
+        <span class="strap1">&quot;</span>
         <span class="strap1">We have an extremely good record</span>
         <span class="strap2">of successfully pleading exceptional</span>
         <br/>
-        <span class="strap2">hardship cases and also using wider grounds to avoid totting up bans."</span>
+        <span class="strap2">hardship cases and also using wider grounds to avoid totting up bans.&quot;</span>
       </div>
          <?php contactBar();?>
           <h1>Totting Up</h1>
@@ -18,7 +18,7 @@ print top("Totting Up");?>
           You may think you are liable to totting up when you are in fact not.
           <br/>
           <br/>
-          Even if you are liable under the totting up provisions the law states that you may escape the usual punishment (i.e. six months minimum disqualification) if the court can be convinced “in all the circumstances” that there are grounds for mitigating the usual penalty.
+          Even if you are liable under the totting up provisions the law states that you may escape the usual punishment (i.e. six months minimum disqualification) if the court can be convinced &quot;in all the circumstances&quot; that there are grounds for mitigating the usual penalty.
           <br/>
           <br/>
           Most cases of this type are under the heading of “exceptional hardship” but they need not necessarily be.

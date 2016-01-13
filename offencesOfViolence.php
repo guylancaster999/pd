@@ -1,13 +1,16 @@
 <?php require "funcz.php";
 print top("Offences of Violence");?>
        <div class="main">
-
-               <?php contactBar();?>
+          <?php contactBar();?>
            <h1>Offences of Violence</h1>
- The law governing the prosecution of offences of violence is as complex and twisted as other areas of the law. There is no statutory definition of what actually amounts to an assault and  battery. The more serious offences of s.47, s.20, and s,18 wounding offences are contained in legislation passed in 1861. The language and terminology used is over 150 years old.
+ The law governing the prosecution of offences of violence is as complex and twisted as other areas of the law.
+ There is no statutory definition of what actually amounts to an assault and  battery.
+ The more serious offences of s.47, s.20, and s,18 wounding offences are contained in legislation passed in 1861.
+ The language and terminology used is over 150 years old.
 <br/>
 <br/>
- The disparity on sentence is ill thought out. Common assault punishable with 6 months imprisonment, s,47 punished by 5 years, the difference between the assaults can be slight but the sentence far greater if charged with the 47.  The s.20 assault is determined as a far greater charge yet the same sentence can be imposed in court 5 years imprisonment. The only difference we could argue between a s18 and s,20 wounding allegation is the alleged intent , but the sentencing powers of the court jumps from 5 years to life imprisonment.
+ The disparity on sentence is ill thought out.
+ Common assault punishable with 6 months imprisonment, s,47 punished by 5 years, the difference between the assaults can be slight but the sentence far greater if charged with the 47.  The s.20 assault is determined as a far greater charge yet the same sentence can be imposed in court 5 years imprisonment. The only difference we could argue between a s18 and s,20 wounding allegation is the alleged intent , but the sentencing powers of the court jumps from 5 years to life imprisonment.
  <br/>
  <br/>
  The basics definitions of the offences charged are as follows
@@ -25,7 +28,8 @@ print top("Offences of Violence");?>
  Common assault and battery are summary offences, triable only in the magistrates court.
  <br/>
  <br/>
- An assault is committed when an accused intentionally or recklessly causes another to apprehend immediate and unlawful violence. A battery being the intentional or reckless infliction of unlawful force.
+ An assault is committed when an accused intentionally or recklessly causes another to apprehend immediate and unlawful violence.
+ A battery being the intentional or reckless infliction of unlawful force.
  <br/>
  <br/>
  To batter someone. Still has some resonance today

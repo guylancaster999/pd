@@ -2,10 +2,10 @@
 print top("New Drivers");?>
  <div class="main">
             <div class="strap0">
-              <span class="strap1">"We have persuaded courts</span>
+              <span class="strap1">&quot;We have persuaded courts</span>
               <span class="strap2">throught the country to take a</span>
               <br/>
-              <span class="strap2">particular course of action"</span>
+              <span class="strap2">particular course of action&quot;</span>
               </div>
             <?php contactBar();?>
           <h1>  New &amp; Young Drivers</h1>

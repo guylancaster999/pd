@@ -1,8 +1,7 @@
 <?php require "funcz.php";
-print top("Driving While Disqualified");?>
+print top("Pedestrian Crossing");?>
 <div class="main">
-
-      <?php contactBar();?>
+       <?php contactBar();?>
           <h1>    Pedestrian Crossing (failing to accord precedence)</h1>
    It is an offence for a driver of any vehicle to fail to accord precedence to a pedestrian within the limits of an uncontrolled pedestrian crossing.
   <br/>  <br/>

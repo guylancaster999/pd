@@ -2,10 +2,10 @@
 print top(" HM Revenue and Customs offences ");?>
            <div class="main">
             <div class="strap0">
-              <span class="strap1">"You need expert Help</span>
+              <span class="strap1">&quot;You need expert Help</span>
               <span class="strap2">when you are accused of any</span>
               <br/>
-              <span class="strap2">offence involving no insurance.</span>
+              <span class="strap2">offence involving no insurance.&quot;</span>
               </div>
             <?php contactBar();?>
                  <h1>                 HM Revenue and Customs offences               </h1>

@@ -2,11 +2,11 @@
 print top("Drink Driving");?>
 <div class="main">
     <div class="strap0">
-        <span class="strap1">"</span>
+        <span class="strap1">&quot;</span>
         <span class="strap1">We have vast experience</span>
         <span class="strap2">in representing people from all walks of life</span>
         <br/>
-        <span class="strap2">faced with a drink driving charges."</span>
+        <span class="strap2">faced with a drink driving charges.&quot;</span>
       </div>
         <?php contactBar();?>
           <h1>Drink Driving Offences</h1>

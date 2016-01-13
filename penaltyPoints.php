@@ -2,11 +2,12 @@
 print top("Penalty Points");?>
  <div class="main">
  <div class="strap0">
-              <span class="strap2">"There are certain ways round them, but you need to know</span>
+              <span class="strap2">&quot;There are certain ways round them, but you need to know</span>
               <br/>
-              <span class="strap2">what you are doing. <span class="strap1">That's where we come in."</span">
-              </div>
-              <?php contactBar();?>
+              <span class="strap2">what you are doing.</span>
+              <span class="strap1">That's where we come in.&quot;</span>
+            </div>
+            <?php contactBar();?>
           <h1>Penalty Points</h1>
  The majority of motoring offences carry penalty points. These can range between three and ten in number.
 		<br/>
@@ -42,7 +43,8 @@ New Drivers face a different problem.
  		<br/>
 
 <div class="mainGreen">
-There are certain ways round it but you need to know what you are doing. In any of these situations call us AS SOON AS POSSIBLE.
+There are certain ways round it but you need to know what you are doing.
+In any of these situations, <a href="contact.php">contact us</a> AS SOON AS POSSIBLE.
 </div>
 			<br/>
           <br/>

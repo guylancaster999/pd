@@ -2,11 +2,10 @@
 print top("Dangerous Driving");?>
           <div class="main">
             <div class="strap0">
-              <span class="strap2">This is one of the most serious motoring offences</span>
+              <span class="strap2">&quot;This is one of the most serious motoring offences</span>
               <br/>
-			                <span class="strap1">you really do need help</span>
-
-              <span class="strap2">if the police charge you with this.</span>
+			        <span class="strap1">you really do need help</span>
+              <span class="strap2">if the police charge you with this.&quot;</span>
               </div>
               <?php contactBar();?>
            <h1>Dangerous Driving</h1>
@@ -21,7 +20,7 @@ If you were convicted of this offence, you face a minimum one year ban, extended
 <br/>
 <br/>
 However we are here to help.
-There are many cases where when the facts are analysed carefully and correct representations made. 
+There are many cases where when the facts are analysed carefully and correct representations made.
 The CPS can reconsider the true gravity of the case and consider if the correct charge has been brought.
 <br/>
 <br/>

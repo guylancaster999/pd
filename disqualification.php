@@ -2,9 +2,9 @@
 print top("Disqualifications");?>
           <div class="main">
             <div class="strap0">
-              <span class="strap2">A disqualification can have far reaching effects often</span>
+              <span class="strap2">&quot;A disqualification can have far reaching effects often</span>
               <br/>
-              <span class="strap2">costing you your job,business etc. <span class="strap1">We can help</span">
+              <span class="strap2">costing you your job,business etc. <span class="strap1">We can help&quot;</span>
               </div>
             <?php contactBar();?>
        <h1>Disqualification</h1>
