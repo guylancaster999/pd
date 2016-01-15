@@ -1,11 +1,11 @@
-<?php require "funcz.php";
-head("Road Traffic Accidents (RTAs)");?>
+<?php
+require "page.php";
+$pg= new pageCls("Road Traffic Accidents (RTAs)");
+?>
     <div id="wrapper">
-
       <div id="header">
-          <?php banner(); ?>
+          <?php $pg->banner(); ?>
       </div><!-- #header -->
-
       <div id="content">
         <table width="100%">
           <tr>
@@ -17,24 +17,23 @@ head("Road Traffic Accidents (RTAs)");?>
               <br/>
               <span class="strap2">to accept that the evidence against you is weak and unsafe to find you guilty&quot;</span>
               </div>
-          <h1>Road Traffic Accidents</h1>
-          <h2>Claim the compensation you deserve</h2>
+              <?php $pg->displayHeader();?>
+		  <h2>Claim the compensation you deserve</h2>
           If you are involved in a road traffic accident, contact our sister firm Simple to Claim
            <br/>
           <br/>
       </div> <!-- main-->
 	   </td>
-
 	  <td class="menuPos">
 		<div   class="menu">
-		<?php menu();?>
+		<?php $pg->menu();?>
 		</div>
 	  </td>
 	</tr>
 	</table>
        </div><!-- #content -->
       <div id="footer">
-           <?php foot();?>
+           <?php $pg->foot();?>
       </div><!-- #footer -->
     </div><!-- #wrapper -->
 </body>

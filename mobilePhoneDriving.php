@@ -1,8 +1,9 @@
-<?php require "funcz.php";
-head("Mobile a Phone When Driving");?>
+<?php 
+require "page.php";
+$pg= new pageCls("Mobile a Phone When Driving");?>
    <div id="wrapper">
       <div id="header">
-          <?php banner(); ?>
+          <?php $pg->banner(); ?>
       </div><!-- #header -->
       <div id="content">
         <table width="100%">
@@ -15,7 +16,7 @@ head("Mobile a Phone When Driving");?>
          <br/>
         <span class="strap2">by cross-examination.&quot;</span>
       </div>
-          <h1>  Using Your Mobile Phone When Driving</h1>
+          <?php $pg->displayHeader();?>
            It is an offence to fail to be in proper control of a motor vehicle.
          This legislation is supplemented by specific provisions relating to the use of mobile telephones whilst driving.
            <br/>  <br/>
@@ -31,19 +32,19 @@ head("Mobile a Phone When Driving");?>
            <br/>  <br/>
          We will provide objective practical advice and assistance, and understanding counsel.
            <br/>  <br/>
-         Do not face this offence alone, contact us immediately.
+         Do not face this offence alone, <a href="contact.php">contact us</a> immediately.
       </div>
 	   </td>
 	  <td class="menuPos">
 		<div  class="menu">
-		<?php menu();?>
+		<?php $pg->menu();?>
 		</div>
 	  </td>
 	</tr>
 	</table>
        </div><!-- #content -->
       <div id="footer">
-           <?php foot();?>
+           <?php $pg->foot();?>
       </div><!-- #footer -->
     </div><!-- #wrapper -->
 </body>

@@ -1,18 +1,18 @@
 <?php 
-require "funcz.php";
-head("Offences of Violence");?>
+require "page.php";
+$pg= new pageCls("Offences of Violence");?>
+ 
    <div id="wrapper">
       <div id="header">
-          <?php banner(); ?>
+          <?php $pg->banner(); ?>
       </div><!-- #header -->
       <div id="content">
         <table width="100%">
           <tr>
             <td>
-		
-       <div class="main">
-           <h1>Offences of Violence</h1>
- The law governing the prosecution of offences of violence is as complex and twisted as other areas of the law.
+		       <div class="main">
+           <?php $pg->displayHeader();?>
+		   The law governing the prosecution of offences of violence is as complex and twisted as other areas of the law.
  There is no statutory definition of what actually amounts to an assault and  battery.
  The more serious offences of s.47, s.20, and s,18 wounding offences are contained in legislation passed in 1861.
  The language and terminology used is over 150 years old.
@@ -24,16 +24,13 @@ head("Offences of Violence");?>
  The only difference we could argue between a s18 and s20 wounding allegation is the alleged intent, but the sentencing powers of the court jumps from 5 years to life imprisonment.
  <br/>
  <br/>
- The basics definitions of the offences charged are as follows
- <br/>
- <br/>
- The least serious and most commonly charged offences
- <br/>
- <br/>
- Assault and battery- common assault
- <br/>
- <br/>
- Criminal justice act 1998. s39.
+ The basics definitions of the offences charged are as follows:
+ <ul>
+ <li>The least serious and most commonly charged offences
+ </li>
+ <li> Assault and battery- common assault</li>
+ </ul>
+Criminal justice act 1998. s39.
  <br/>
  <br/>
  Common assault and battery are summary offences, triable only in the magistrates court.
@@ -52,10 +49,10 @@ head("Offences of Violence");?>
  The sentencing guidelines consider aggravating features of the offence to be; use of weapon, public place , abuse of trust, domestic violence, victim serving the public, spitting, previous convictions.
  <br/>
  <br/>
- Mitigating features; impulsive action , minor injury, provocation, single  blow
+ Mitigating features:impulsive action , minor injury, provocation, single  blow
  <br/>
  <br/>
- The court treat violence between motorists very seriously and will consider custody in most cases, as are violence at or within the context of sporting fixtures- see thelwell 2004, where a defendant head butted and punched another player and received a sentence of 3 months imprisonment, upheld  on appeal as being ‘deserved and correct’
+ The court treat violence between motorists very seriously and will consider custody in most cases, as are violence at or within the context of sporting fixtures- see thelwell 2004, where a defendant head butted and punched another player and received a sentence of 3 months imprisonment, upheld  on appeal as being 'deserved and correct'
  <ul>
    <li><A href="#abh">Assault occasioning actual bodily harm</a></li>
    <li><A href="#gbh"> Grievous bodily harm</a></li>
@@ -190,14 +187,14 @@ head("Offences of Violence");?>
 	   </td>
 	  <td class="menuPos">
 		<div  class="menu">
-		<?php menu();?>
+		<?php $pg->menu();?>
 		</div>
 	  </td>
 	</tr>
 	</table>
        </div><!-- #content -->
       <div id="footer">
-           <?php foot();?>
+           <?php $pg->foot();?>
       </div><!-- #footer -->
     </div><!-- #wrapper -->
 </body>

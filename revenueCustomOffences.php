@@ -1,32 +1,31 @@
 <?php 
-require "funcz.php";
-head("HM Revenue and Customs offences");?>
+require "page.php";
+$pg= new pageCls("HM Revenue and Customs offences");?>
    <div id="wrapper">
       <div id="header">
-          <?php banner(); ?>
+          <?php $pg->banner(); ?>
       </div><!-- #header -->
       <div id="content">
         <table width="100%">
           <tr>
             <td>
-     
-           <div class="main">
+                <div class="main">
             <div class="strap0">
               <span class="strap1">&quot;You need expert Help</span>
               <span class="strap2">when you are accused of any</span>
               <br/>
               <span class="strap2">offence involving no insurance.&quot;</span>
               </div>
-                 <h1>HM Revenue and Customs offences</h1>
+               <?php $pg->displayHeader();?>
                HM Revenue and Customs are one of the most powerful bodies investigating crime and tax evasion.
                  <br/></br>
                  They investigate matters such as:
                   <ul>
-                        <li>Missing Trader Intra Community (MTIC) fraud;      </li>
-                          <li>           Money Laundering;      </li>
-      <li>           False Accounting;      </li>
-      <li>       Cheating the Revenue.      </li>
-    </ul>
+                        <li>Missing Trader Intra Community (MTIC) fraud</li>
+                         <li>Money Laundering  </li>
+						<li>False Accounting </li>
+						<li>Cheating the Revenue</li>
+					</ul>
 <ul>
   <li><a href="#taxEvasion">Tax evasion</a>      </li>
     <li><a href="#civilSettlement" > Civil Settlement</a>      </li>
@@ -123,14 +122,14 @@ head("HM Revenue and Customs offences");?>
 	  	   </td>
 	  <td class="menuPos">
 		<div  class="menu">
-		<?php menu();?>
+		<?php $pg->menu();?>
 		</div>
 	  </td>
 	</tr>
 	</table>
        </div><!-- #content -->
       <div id="footer">
-           <?php foot();?>
+           <?php $pg->foot();?>
       </div><!-- #footer -->
     </div><!-- #wrapper -->
 </body>

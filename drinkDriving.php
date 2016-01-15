@@ -1,8 +1,10 @@
-<?php require "funcz.php";
-head("Drink Driving");?>
-   <div id="wrapper">
+<?php 
+require "page.php";
+$pg= new pageCls("Drink Driving");
+?>
+     <div id="wrapper">
       <div id="header">
-          <?php banner(); ?>
+          <?php $pg->banner(); ?>
       </div><!-- #header -->
       <div id="content">
         <table width="100%">
@@ -16,14 +18,15 @@ head("Drink Driving");?>
         <br/>
         <span class="strap2">faced with a drink driving charges.&quot;</span>
       </div>
-          <h1>Drink Driving Offences</h1>
+		<?php $pg->displayHeader();?>
          One of the most frequent road traffic offences with the most severe consequences if convicted.
          <br/><br/>
          The law imposes a minimum disqualification of 12 months, unless ‘special reasons’ to avoid disqualification can be found. We have the necessary experience and understanding of many varied situations to present powerful arguments against disqualification.
          <br/><br/>
-         If there has been a previous conviction within10 years of the current offence, the compulsory disqualification must be for at least 3 years unless 'special reasons' exist.
+         If there has been a previous conviction within 10 years of the current offence, the compulsory disqualification must be for at least 3 years unless 'special reasons' exist.
          <br/><br/>
-         We appreciate that a disqualification for this type of offence will have dramatic consequences for you, your work and your family. We will explore all the evidence thoroughly and investigate the defences available, the hip flask defence- post driving alcohol consumption, special reasons arguments to avoid disqualification including driving a short distance, parking, taking a car off the road, sudden emergencies and laced drinks.
+         We appreciate that a disqualification for this type of offence will have dramatic consequences for you, your work and your family. 
+		 We will explore all the evidence thoroughly and investigate the defences available, the hip flask defence- post driving alcohol consumption, special reasons arguments to avoid disqualification including driving a short distance, parking, taking a car off the road, sudden emergencies and laced drinks.
          <br/><br/>
          We are experienced in instructing forensic scientists to provide expert evidence to assist the preparation of defences.
          <br/><br/>
@@ -53,18 +56,17 @@ head("Drink Driving");?>
          We will provide objective practical advice and assistance, and understanding counsel.
          <br/><br/>
          Do not face this offence alone, <A href="contact.php">contact us</a> immediately.
-         </div>
-	   </td>
+         </div> </td>
 	  <td class="menuPos">
-		<div  class="menu">
-		<?php menu();?>
+		<div   class="menu">
+     		<?php $pg->menu();?>
 		</div>
 	  </td>
 	</tr>
 	</table>
        </div><!-- #content -->
       <div id="footer">
-           <?php foot();?>
+           <?php $pg->foot();?>
       </div><!-- #footer -->
     </div><!-- #wrapper -->
 </body>

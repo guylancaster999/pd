@@ -1,11 +1,10 @@
-<?php require "funcz.php";
-	head("Dangerous Driving");?>
+<?php 
+require "page.php";
+$pg= new pageCls("Driving Without Insurance");?>
     <div id="wrapper">
-
       <div id="header">
-          <?php banner(); ?>
+          <?php $pg->banner(); ?>
       </div><!-- #header -->
-
       <div id="content">
         <table width="100%">
           <tr>
@@ -17,7 +16,7 @@
               <br/>
               <span class="strap2">offence involving no insurance.&quot;</span>
               </div>
-              <h1>Driving Without Insurance</h1>
+              <?php $pg->displayHeader();?>
 			Using a motor vehicle on a road or other public place without a policy of insurance is a criminal offence which can attract a fine, 6-8 points, or a discretionary disqualification, including a retest.
            <br/>
            <br/>
@@ -36,19 +35,19 @@
 			We will provide objective practical advice and assistance, and understanding counsel.
            <br/>
 			<br/>
-			Do not face this offence alone, contact us immediately.
+			Do not face this offence alone, <A href="contact.php">contact us</a> immediately.
          </div>
 		 	   </td>
 	  <td class="menuPos">
 		<div   class="menu">
-		<?php menu();?>
+		<?php $pg->menu();?>
 		</div>
 	  </td>
 	</tr>
 	</table>
        </div><!-- #content -->
       <div id="footer">
-           <?php foot();?>
+           <?php $pg->foot();?>
       </div><!-- #footer -->
     </div><!-- #wrapper -->
 </body>

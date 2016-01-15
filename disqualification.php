@@ -1,24 +1,22 @@
-<?php require "funcz.php";
-	head("Dangerous Driving");?>
+<?php 
+require "page.php";
+$pg= new pageCls("Disquaification");
+?>
     <div id="wrapper">
-
       <div id="header">
-          <?php banner(); ?>
+          <?php $pg->banner(); ?>
       </div><!-- #header -->
-
       <div id="content">
         <table width="100%">
           <tr>
             <td>
-       
           <div class="main">
             <div class="strap0">
               <span class="strap2">&quot;A disqualification can have far reaching effects often</span>
               <br/>
               <span class="strap2">costing you your job,business etc. <span class="strap1">We can help&quot;</span>
               </div>
-
-       <h1>Disqualification</h1>
+				<?php $pg->displayHeader();?>
         Disqualification is an order of the court and driving whilst disqualified is considered very seriously by the courts.
         <br/>
         <br/>
@@ -42,7 +40,21 @@
         Special Reasons could include shortness of distance driven, driving because of medical emergency, laced drinks.   <br/>
         <br/>
       </div>
-	  
+   </td>
+	  <td class="menuPos">
+		<div   class="menu">
+     		<?php $pg->menu();?>
+		</div>
+	  </td>
+	</tr>
+	</table>
+       </div><!-- #content -->
+      <div id="footer">
+           <?php $pg->foot();?>
+      </div><!-- #footer -->
+    </div><!-- #wrapper -->
+</body>
+</html>	  
 
 	  
 	  

@@ -1,23 +1,25 @@
-<?php require "funcz.php";
-	head("Penalty Points");?>
+<?php 
+require "page.php";
+$pg= new pageCls("Penalty Points");
+?>
     <div id="wrapper">
       <div id="header">
-          <?php banner(); ?>
+          <?php $pg->banner(); ?>
       </div><!-- #header -->
       <div id="content">
         <table width="100%">
           <tr>
             <td>
- <div class="main">
- <div class="strap0">
+			 <div class="main">
+			 <div class="strap0">
               <span class="strap2">&quot;There are certain ways round them, but you need to know</span>
               <br/>
               <span class="strap2">what you are doing.</span>
               <span class="strap1">That's where we come in.&quot;</span>
             </div>
-
-			<h1>Penalty Points</h1>
- The majority of motoring offences carry penalty points. These can range between three and ten in number.
+			<?php $pg->displayHeader();?>
+			The majority of motoring offences carry penalty points. 
+			These can range between three and ten in number.
 		<br/>
      		<br/>
         Any offence which carries mandatory endorsement with points also carries the possibility of a discretionary disqualification.
@@ -35,19 +37,17 @@
      		<br/>
         In certain circumstances, the court must not endorse a driving licence in situations where, say, there is a defect on a vehicle which is unknown to the driver and which could not have been reasonably detected.
 		<br/>
-     		<br/>
-
-Penalty points physically stay on the driving licence for four years but count towards “totting up” for three years. The period goes from date of offence to date of offence.
+     	<br/>
+		Penalty points physically stay on the driving licence for four years but count towards &quot;totting up&quot; for three years. 
+		The period goes from date of offence to date of offence.
 		<br/>
      		<br/>
-
-If you are facing a prosecution for any offence which carries the possibility of penalty points you should seek advice immediately to make sure you are not getting points unnecessarily.
+		If you are facing a prosecution for any offence which carries the possibility of penalty points, you should seek advice immediately to make sure you are not getting points unnecessarily.
 		<br/>
      		<br/>
-
-New Drivers face a different problem.
-  If you have six points ordered against your licence within the first two years of passing your driving test, you go back to square one and go back to provisional licence status.
-  You then have to take your test all over again.		<br/>
+		New Drivers face a different problem.
+		  If you have six points ordered against your licence within the first two years of passing your driving test, you go back to square one and go back to provisional licence status.
+		  You then have to take your test all over again.		<br/>
  		<br/>
     <div class="mainGreen">
     There are certain ways round it but you need to know what you are doing.
@@ -56,14 +56,14 @@ New Drivers face a different problem.
  </td>
 	  <td class="menuPos">
 		<div   class="menu">
-		<?php menu();?>
+		<?php $pg->menu();?>
 		</div>
 	  </td>
 	</tr>
 	</table>
        </div><!-- #content -->
       <div id="footer">
-           <?php foot();?>
+           <?php $pg->foot();?>
       </div><!-- #footer -->
     </div><!-- #wrapper -->
 </body>

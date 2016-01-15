@@ -1,20 +1,21 @@
-<?php require "funcz.php";
-	head("Failing to Stop");?>
+<?php 
+require "page.php";
+$pg= new pageCls("Failing to Stop");
+?>
     <div id="wrapper">
-
       <div id="header">
-          <?php banner(); ?>
+          <?php $pg->banner(); ?>
       </div><!-- #header -->
       <div id="content">
         <table width="100%">
           <tr>
             <td>
- <div class="main">
-          <h1>Failing to Stop</h1>
-          As a driver on a road or public place where an accident occurred which caused injury to a person or damage to a vehicle or property an offence is committed of the driver fails to stop and provide their details
+				<div class="main">
+				<?php $pg->displayHeader(); ?>
+			As a driver on a road or public place where an accident occurred which caused injury to a person or damage to a vehicle or property, an offence is committed of the driver fails to stop and provide their details
 			<br/>
 			<br/>
-      The sentence for such an offence is 5-10 points (unless special reasons), fine, possible  imprisonment, discretionary disqualification.
+			The sentence for such an offence is 5-10 points (unless special reasons), fine, possible  imprisonment, discretionary disqualification.
 			<br/>
 			<br/>
 			Where an accident occurs a driver has a duty to stop at the scene.
@@ -29,18 +30,18 @@
 						<br/>
 						<br/>
 			Do not face this offence alone, contact us immediately.
-      </div>
+				</div>
 		 	   </td>
 	  <td class="menuPos">
 		<div   class="menu">
-		<?php menu();?>
+		<?php $pg->menu();?>
 		</div>
 	  </td>
 	</tr>
 	</table>
        </div><!-- #content -->
       <div id="footer">
-           <?php foot();?>
+           <?php $pg->foot();?>
       </div><!-- #footer -->
     </div><!-- #wrapper -->
 </body>

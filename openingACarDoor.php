@@ -1,15 +1,16 @@
-<?php require "funcz.php";
-head("Opening a Car Door");?>
+<?php 
+require "page.php";
+$pg= new pageCls("Opening a Car Door");?>
    <div id="wrapper">
       <div id="header">
-          <?php banner(); ?>
+          <?php $pg->banner(); ?>
       </div><!-- #header -->
       <div id="content">
         <table width="100%">
           <tr>
             <td>
-<div class="main">
-        <h1>Opening a Car Door</h1>
+		<div class="main">
+        <?php $pg->displayHeader();?>
         It is an offence to open a door of a motor vehicle or trailer on a road so as to cause injury or danger.
         <br/><br/>
         Sentences available include a fine of up to £1000.00, or a fixed penalty.
@@ -22,18 +23,18 @@ head("Opening a Car Door");?>
         <br/><br/>
         We will provide objective practical advice and assistance, and understanding counsel.
         <br/><br/>
-        Do not face this offence alone, contact us immediately.    </div>
+        Do not face this offence alone, <a href="contact.php">contact us</a> immediately.    </div>
 	    </td>
 	  <td class="menuPos">
 		<div  class="menu">
-		<?php menu();?>
+		<?php $pg->menu();?>
 		</div>
 	  </td>
 	</tr>
 	</table>
        </div><!-- #content -->
       <div id="footer">
-           <?php foot();?>
+           <?php $pg->foot();?>
       </div><!-- #footer -->
     </div><!-- #wrapper -->
 </body>

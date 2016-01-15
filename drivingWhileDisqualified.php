@@ -1,8 +1,10 @@
-<?php require "funcz.php";
-head("Driving While Disqualified");?>
-   <div id="wrapper">
+<?php 
+require "page.php";
+$pg= new pageCls("Driving While Disqualified");
+?>
+  <div id="wrapper">
       <div id="header">
-          <?php banner(); ?>
+          <?php $pg->banner(); ?>
       </div><!-- #header -->
       <div id="content">
         <table width="100%">
@@ -15,23 +17,23 @@ head("Driving While Disqualified");?>
          <br/>
         <span class="strap2">disqualification part way through.&quot;</span>
       </div>
-          <h1>Driving While Disqualified</h1>
+          <?php $pg->displayHeader();?>
           The imposition of a driving disqualification is regarded by the court as a serious matter.
            Driving whilst disqualified will often lead to a custodial sentence.
            It is occasionally possible to persuade the court to remove a disqualification part-way through.
            We can advise you as to the making of an application to remove a disqualification and represent you at the court hearing.
       </div>
-	    </td>
+</td>
 	  <td class="menuPos">
-		<div  class="menu">
-		<?php menu();?>
+		<div   class="menu">
+     		<?php $pg->menu();?>
 		</div>
 	  </td>
 	</tr>
 	</table>
        </div><!-- #content -->
       <div id="footer">
-           <?php foot();?>
+           <?php $pg->foot();?>
       </div><!-- #footer -->
     </div><!-- #wrapper -->
 </body>

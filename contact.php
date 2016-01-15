@@ -1,21 +1,19 @@
-<?php require "funcz.php";
-print head("Contact Us");
+<?php
+require "page.php";
+$pg= new pageCls("Contact Us");
 ?>
 <body>
     <div id="wrapper">
-
       <div id="header">
-          <?php banner(); ?>
+          <?php $pg->banner(); ?>
       </div><!-- #header -->
-
       <div id="content">
         <table width="100%">
           <tr>
             <td>
        <div class="main">
-
-        <h1> Contact Us</h1>
-   	   <table >
+        <?php $pg->displayHeader();?>
+   	   <table>
 			 <tr>
 			   <td>Tel</td>
 			   <td>:</td>
@@ -27,7 +25,10 @@ print head("Contact Us");
 			 <tr>
 			   <td>Address</td>
 			   <td>:</td>
-			   <td>P.D. Solicitors,<br/>75 South Drive,<br/> Chorlton-cum-Hardy,<br/> Manchester
+			   <td>P.D. Solicitors,<br/>
+			   75 South Drive,<br/> 
+			   Chorlton-cum-Hardy,<br/> 
+			   Manchester
 				  M21 8ED</td>
 			 </tr>
 			 <tr>
@@ -43,16 +44,14 @@ print head("Contact Us");
 	  </td>
 	  <td align="right">
 		<div   class="menu">
-		<?php menu();?>
+		<?php $pg->menu();?>
 		</div>
 	  </td>
 	</tr>
 	</table>
-
        </div><!-- #content -->
-
       <div id="footer">
-           <?php foot();?>
+           <?php $pg->foot();?>
       </div><!-- #footer -->
     </div><!-- #wrapper -->
 </body>

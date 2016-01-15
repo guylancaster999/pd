@@ -1,22 +1,23 @@
-<?php require "funcz.php";
-	head("Totting Up");?>
+<?php 
+require "page.php";
+$pg= new pageCls("Totting Up");?>
     <div id="wrapper">
       <div id="header">
-          <?php banner(); ?>
+          <?php $pg->banner(); ?>
       </div><!-- #header -->
       <div id="content">
         <table width="100%">
           <tr>
             <td>
-<div class="main">
-    <div class="strap0">
-        <span class="strap1">&quot;</span>
-        <span class="strap1">We have an extremely good record</span>
-        <span class="strap2">of successfully pleading exceptional</span>
-        <br/>
-        <span class="strap2">hardship cases and also using wider grounds to avoid totting up bans.&quot;</span>
-      </div>
-          <h1>Totting Up</h1>
+		<div class="main">
+			<div class="strap0">
+			<span class="strap1">&quot;</span>
+			<span class="strap1">We have an extremely good record</span>
+			<span class="strap2">of successfully pleading exceptional</span>
+			<br/>
+			<span class="strap2">hardship cases and also using wider grounds to avoid totting up bans.&quot;</span>
+		  </div>
+          <?php $pg->displayHeader();?>
           If you get to a position when you have 12 relevant points on your licence, you will be liable to a <span class="mainGreen">MINIMUM DISQUALIFICATION OF SIX MONTHS</span>.
           If you have one previous disqualification of over 56 days that minimum increases to one year and if you have two such previous disqualifications, then the minimum becomes two years!
           <br/>
@@ -45,14 +46,14 @@
 			 </td>
 	  <td class="menuPos">
 		<div   class="menu">
-		<?php menu();?>
+		<?php $pg->menu();?>
 		</div>
 	  </td>
 	</tr>
 	</table>
        </div><!-- #content -->
       <div id="footer">
-           <?php foot();?>
+           <?php $pg->foot();?>
       </div><!-- #footer -->
     </div><!-- #wrapper -->
 </body>

@@ -1,8 +1,9 @@
-<?php require "funcz.php";
-head("Speeding Offences");?>
+<?php 
+require "page.php";
+$pg= new pageCls("Speeding Offences");?>
    <div id="wrapper">
       <div id="header">
-          <?php banner(); ?>
+          <?php $pg->banner(); ?>
       </div><!-- #header -->
       <div id="content">
         <table width="100%">
@@ -15,9 +16,8 @@ head("Speeding Offences");?>
          <br/>
         <span class="strap2">and use this to your advantage.&quot;</span>
       </div>
-
-	  <h1> Speeding Offences</h1>
-          Who doesn't have conviction for speeding?
+	<?php $pg->displayHeader();?>
+         Who doesn't have conviction for speeding?
           I don't know anyone even my mum.
           The most careful driver can commit an offence.
           Speed Cameras seem to appear at the most unlikely places, and be positioned to catch out an unwary motorist.
@@ -34,18 +34,17 @@ head("Speeding Offences");?>
           <br/><br/>
           Do not face this offence alone, <a href="contact.php">contact us</a> immediately.
       </div>
-
 	    </td>
 	  <td class="menuPos">
 		<div  class="menu">
-		<?php menu();?>
+		<?php $pg->menu();?>
 		</div>
 	  </td>
 	</tr>
 	</table>
        </div><!-- #content -->
       <div id="footer">
-           <?php foot();?>
+           <?php $pg->foot();?>
       </div><!-- #footer -->
     </div><!-- #wrapper -->
 </body>
