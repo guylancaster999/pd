@@ -24,7 +24,8 @@ $pg= new pageCls("Road Traffic Accidents (RTAs)");
           <br/>
       </div> <!-- main-->
 	   </td>
-	  <td class="menuPos">
+	    <td  class="tdHbar"><?php $pg->hbar();?></td>
+		<td class="menuPos">
 		<div   class="menu">
 		<?php $pg->menu();?>
 		</div>
@@ -38,5 +39,3 @@ $pg= new pageCls("Road Traffic Accidents (RTAs)");
     </div><!-- #wrapper -->
 </body>
 </html>
- 
- 

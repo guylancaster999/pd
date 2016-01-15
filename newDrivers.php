@@ -9,7 +9,7 @@ $pg= new pageCls("New Drivers");?>
         <table width="100%">
           <tr>
             <td>
- <div class="main">
+			<div class="main">
             <div class="strap0">
               <span class="strap1">&quot;We have persuaded courts</span>
               <span class="strap2">throught the country to take a</span>
@@ -29,7 +29,9 @@ $pg= new pageCls("New Drivers");?>
 			<br/><br/>
 			The rules are so severe that you must &ndash; <A href="contact.php">CALL US STRAIGHT AWAY</a>.
       </div>
-  </td>
+  </td> 
+  <td ><?php $pg->hbar();?></td>
+		
 	  <td class="menuPos">
 		<div  class="menu">
 		<?php $pg->menu();?>

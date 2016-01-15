@@ -41,6 +41,7 @@ $pg= new pageCls("Disquaification");
         <br/>
       </div>
    </td>
+   <td  class="tdHbar"><?php $pg->hbar();?></td>
 	  <td class="menuPos">
 		<div   class="menu">
      		<?php $pg->menu();?>
@@ -54,10 +55,5 @@ $pg= new pageCls("Disquaification");
       </div><!-- #footer -->
     </div><!-- #wrapper -->
 </body>
-</html>	  
-
-	  
-	  
-	  
-	  
+</html>	 
 	  

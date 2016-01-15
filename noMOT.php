@@ -21,6 +21,8 @@ $pg= new pageCls("No MOT Certificate");?>
           If you have questions about this matter, <A href="contact.php">contact us</a> for clarification regarding your concerns.
         </div>
  	    </td>
+		<td  class="tdHbar"><?php $pg->hbar();?></td>
+		
 	  <td class="menuPos">
 		<div  class="menu">
 		<?php $pg->menu();?>

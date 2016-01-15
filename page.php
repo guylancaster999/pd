@@ -24,7 +24,10 @@ class pageCls
     </head>';
 return;
 }
-
+function hbar()
+{
+	print '<img src="img/dot.png" class="vbar" >';
+}
 function displayHeader()
 {
 	print "<h1>".$this->pgTtl."</h1>";
@@ -46,9 +49,9 @@ function banner()
           <img src="img/border.jpg" alt="" class="wideBar">
            <div class="bar">
                   <a href="index.php" title="PDS Home Page">Home</a> |
-                   <a href="contact.php" title="Contact PDS">Contact us</a>
+                   <a href="contact.php" title="Contact PDS">Contact us</a> |
             </div> <!--bar-->
-          <hr/>
+          <img src="img/dot.png" class="hbar" >
           </div> <!--barpos-->    ';
 return;
 }

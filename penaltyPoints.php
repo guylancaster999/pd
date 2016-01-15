@@ -53,7 +53,8 @@ $pg= new pageCls("Penalty Points");
     There are certain ways round it but you need to know what you are doing.
     In any of these situations, <a href="contact.php">contact us</a> AS SOON AS POSSIBLE.
     </div>
- </td>
+ </td> 
+ <td  class="tdHbar"><?php $pg->hbar();?></td>
 	  <td class="menuPos">
 		<div   class="menu">
 		<?php $pg->menu();?>

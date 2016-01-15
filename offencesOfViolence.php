@@ -152,7 +152,6 @@ Criminal justice act 1998. s39.
  <br/>
  <br/>
  Although not legislated individually there are an increasing number of cases of violence between motorists coming before the courts. These are treated seriously and the vast majority of these charged and convicted will receive a custodial sentence
-
  <br/>
  <br/>
  HARASSMENT OFFENCES.
@@ -185,7 +184,8 @@ Criminal justice act 1998. s39.
  If you are spoken to by the police about these matters, <A href="contact.php">ring us</a> immediately.
       </div>
 	   </td>
-	  <td class="menuPos">
+ <td  class="tdHbar"><?php $pg->hbar();?></td>
+			  <td class="menuPos">
 		<div  class="menu">
 		<?php $pg->menu();?>
 		</div>

@@ -120,7 +120,8 @@ $pg= new pageCls("HM Revenue and Customs offences");?>
                <a href="contact.php">Contact Us</a>.
       </div>
 	  	   </td>
-	  <td class="menuPos">
+		    <td  class="tdHbar"><?php $pg->hbar();?></td>
+		  <td class="menuPos">
 		<div  class="menu">
 		<?php $pg->menu();?>
 		</div>

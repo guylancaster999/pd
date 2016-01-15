@@ -25,6 +25,8 @@ $pg= new pageCls("Opening a Car Door");?>
         <br/><br/>
         Do not face this offence alone, <a href="contact.php">contact us</a> immediately.    </div>
 	    </td>
+		 <td  class="tdHbar"><?php $pg->hbar();?></td>
+		
 	  <td class="menuPos">
 		<div  class="menu">
 		<?php $pg->menu();?>

@@ -26,8 +26,9 @@ $pg= new pageCls("Traffic Light Offences");?>
 			PENALTY 3 points + a fine
 			 </div>
 			 	 </td>
-	  <td class="menuPos">
-		<div   class="menu">
+				  <td class="tdHbar"><?php $pg->hbar();?></td>
+			  <td class="menuPos">
+					<div   class="menu">
 		<?php $pg->menu();?>
 		</div>
 	  </td>

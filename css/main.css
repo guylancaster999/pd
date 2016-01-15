@@ -1,16 +1,20 @@
 html,
-body {
-	margin:0;
-	padding:0;
-	height:100%;
-	font-family:Arial,sans-serif;
+body
+{
+	margin				:0;
+	padding				:0;
+	height				:100%;
+	font-family			:Arial,sans-serif;
+	background-color	:white;
 }
-#wrapper {
+#wrapper 
+{
 	min-height:100%;
 	position:relative;
 }
-#header {
-	background:#ededed;
+#header 
+{
+	background:white;
 	padding:10px;
 }
 #content {
@@ -125,14 +129,18 @@ td
 	width		:170px;
 	text-align	:right;
 }
+.menu 
+{
+	width:150px;
+}
 .menu a
 {
-  width				:200px;
   font-family		:Arial,sans-serif;
   font-size       	:9pt;
   color           	:#666;
   text-decoration   :none;
   font-weight       :150;
+  text-align		:right;
 }
 .menu a:hover
 {
@@ -185,3 +193,19 @@ td
 {
   width:100%;
 }
+.tdHbar
+{
+	align:right;
+}
+.hbar
+{
+	height:1px;
+	width:100%;
+ }
+.vbar
+{
+	padding-left:6px;
+	padding-right:6px;
+	height:100%;
+	width:1px;
+ }

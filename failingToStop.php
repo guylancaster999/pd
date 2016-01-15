@@ -32,7 +32,8 @@ $pg= new pageCls("Failing to Stop");
 			Do not face this offence alone, contact us immediately.
 				</div>
 		 	   </td>
-	  <td class="menuPos">
+			    <td  class="tdHbar"><?php $pg->hbar();?></td>
+			  <td class="menuPos">
 		<div   class="menu">
 		<?php $pg->menu();?>
 		</div>

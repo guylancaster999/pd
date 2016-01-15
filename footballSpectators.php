@@ -21,7 +21,8 @@ $pg= new pageCls("Football Spectators and Violence at Football matches");
 			If you are charged with any such offence, <A href="contact.php">contact</a> our office for advice immediately.
    </div>
 	  	   </td>
-	  <td class="menuPos">
+		    <td  class="tdHbar"><?php $pg->hbar();?></td>
+			  <td class="menuPos">
 		<div  class="menu">
 		<?php $pg->menu();?>
 		</div>

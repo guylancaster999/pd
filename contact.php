@@ -2,7 +2,7 @@
 require "page.php";
 $pg= new pageCls("Contact Us");
 ?>
-<body>
+<body>	
     <div id="wrapper">
       <div id="header">
           <?php $pg->banner(); ?>
@@ -15,7 +15,7 @@ $pg= new pageCls("Contact Us");
         <?php $pg->displayHeader();?>
    	   <table>
 			 <tr>
-			   <td>Tel</td>
+			   <td>Telelephone</td>
 			   <td>:</td>
 			   <td>07811 329055</td>
 			 </tr>
@@ -25,11 +25,7 @@ $pg= new pageCls("Contact Us");
 			 <tr>
 			   <td>Address</td>
 			   <td>:</td>
-			   <td>P.D. Solicitors,<br/>
-			   75 South Drive,<br/> 
-			   Chorlton-cum-Hardy,<br/> 
-			   Manchester
-				  M21 8ED</td>
+			   <td>Paul Darnborough Solicitors, 75 South Drive, Chorlton-cum-Hardy, Manchester M21 8ED</td>
 			 </tr>
 			 <tr>
 			   <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
@@ -41,9 +37,10 @@ $pg= new pageCls("Contact Us");
 			   </tr>
 			 </table>
 		</div>
-	  </td>
-	  <td align="right">
-		<div   class="menu">
+		</td>
+		<td  class="tdHbar"><?php $pg->hbar();?></td>
+		<td class="menuPos">
+		<div  class="menu">
 		<?php $pg->menu();?>
 		</div>
 	  </td>
@@ -51,8 +48,8 @@ $pg= new pageCls("Contact Us");
 	</table>
        </div><!-- #content -->
       <div id="footer">
-           <?php $pg->foot();?>
+           <?php  $pg->foot();?>
       </div><!-- #footer -->
     </div><!-- #wrapper -->
 </body>
-</html>
+</html>	

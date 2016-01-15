@@ -44,7 +44,8 @@ $pg= new pageCls("Totting Up");?>
           You need expert help as soon as possible.
             </div>
 			 </td>
-	  <td class="menuPos">
+             <td  class="tdHbar"><?php $pg->hbar();?></td>
+			  <td class="menuPos">
 		<div   class="menu">
 		<?php $pg->menu();?>
 		</div>

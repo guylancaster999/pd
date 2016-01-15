@@ -66,6 +66,7 @@ $pg= new pageCls("Drug Offences");
 			Networks of surveillance cameras,
       </div>
 	  	   </td>
+		   <td  class="tdHbar"><?php $pg->hbar();?></td>
 	  <td class="menuPos">
 		<div  class="menu">
 		<?php $pg->menu();?>

@@ -1,6 +1,6 @@
 <?php 
-require "page.php";
-$pg= new pageCls("Homepage");
+	require "page.php";
+	$pg = new pageCls("Welcome to P.D. Solicitors");
 ?>
  <div id="wrapper">
       <div id="header">
@@ -51,7 +51,8 @@ $pg= new pageCls("Homepage");
 		  We will make sure that you are properly prepared for the court experience and that you have someone instructed by us to represent you.
        </div>
    </td>
-	  <td class="menuPos">
+	<td  class="tdHbar"><?php $pg->hbar();?></td>
+	<td class="menuPos">
 		<div  class="menu">
 		<?php $pg->menu();?>
 		</div>

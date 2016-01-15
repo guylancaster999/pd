@@ -26,7 +26,8 @@ $pg= new pageCls("No Tax - Road Fund (Excise License)");?>
           <br/>
           If you are in any confusion or doubt, <A href="contact.php">contact us</a> in total confidence.</div>
 	    </td>
-	  <td class="menuPos">
+		 <td  class="tdHbar"><?php $pg->hbar();?></td>
+		 <td class="menuPos">
 		<div  class="menu">
 		<?php $pg->menu();?>
 		</div>

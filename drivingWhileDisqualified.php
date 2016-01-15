@@ -10,10 +10,10 @@ $pg= new pageCls("Driving While Disqualified");
         <table width="100%">
           <tr>
             <td>
-<div class="main">
-    <div class="strap0">
-        <span class="strap1">&quot;It is occasionly possible </span>
-        <span class="strap2"> to persuade the court to remove  a</span>
+	<div class="main">
+		<div class="strap0">
+			<span class="strap1">&quot;It is occasionly possible </span>
+			<span class="strap2"> to persuade the court to remove  a</span>
          <br/>
         <span class="strap2">disqualification part way through.&quot;</span>
       </div>
@@ -22,10 +22,11 @@ $pg= new pageCls("Driving While Disqualified");
            Driving whilst disqualified will often lead to a custodial sentence.
            It is occasionally possible to persuade the court to remove a disqualification part-way through.
            We can advise you as to the making of an application to remove a disqualification and represent you at the court hearing.
-      </div>
-</td>
-	  <td class="menuPos">
-		<div   class="menu">
+		</div>
+		</td>
+	<td  class="tdHbar"><?php $pg->hbar();?></td>
+		<td class="menuPos">
+		<div class="menu">
      		<?php $pg->menu();?>
 		</div>
 	  </td>

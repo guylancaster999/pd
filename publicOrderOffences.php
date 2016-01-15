@@ -183,7 +183,8 @@ $pg= new pageCls("Public Order Offences");?>
 			 This is an evolving area of law, currently under statutory reform, if you are charged with any of these offences, <A href="contact.php"> contact us</a> immediately.
         </div>
 	  </td>
-	  <td class="menuPos">
+	   <td  class="tdHbar"><?php $pg->hbar();?></td>
+		<td class="menuPos">
 		<div   class="menu">
 		<?php $pg->menu();?>
 		</div>

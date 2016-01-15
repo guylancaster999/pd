@@ -38,7 +38,8 @@ $pg= new pageCls("Careless Driving");
 			Do not face this offence alone, <A href="contact.php">contact us</a> immediately.
       </div>
 	   </td>
-	  <td class="menuPos">
+       <td class="tdHbar"><?php $pg->hbar();?></td>		
+	   <td class="menuPos">
 		<div   class="menu">
 		<?php $pg->menu();?>
 		</div>
