@@ -1,5 +1,13 @@
 <?php require "funcz.php";
-print top("New Drivers");?>
+head("New Drivers");?>
+   <div id="wrapper">
+      <div id="header">
+          <?php banner(); ?>
+      </div><!-- #header -->
+      <div id="content">
+        <table width="100%">
+          <tr>
+            <td>
  <div class="main">
             <div class="strap0">
               <span class="strap1">&quot;We have persuaded courts</span>
@@ -7,7 +15,6 @@ print top("New Drivers");?>
               <br/>
               <span class="strap2">particular course of action&quot;</span>
               </div>
-            <?php contactBar();?>
           <h1>  New &amp; Young Drivers</h1>
       A few years ago legislation was passed to make it automatic that a &quot;New Driver&quot; who got up to six points within the first two years of having passed a driving test would automatically go back to square one and have to re-take the entire driving test.
 <br/><br/>
@@ -19,6 +26,20 @@ If you are a &quot;New Driver&quot; and are likely to get up to six points you m
 <br/><br/>
 If you already have three points and receive the offer of a fixed penalty you must not accept the fixed penalty as this would automatically lead to you going back to square one.
 <br/><br/>
-The rules are so severe that you must – CALL US STRAIGHT AWAY
+The rules are so severe that you must &ndash; <A href="contact.php">CALL US STRAIGHT AWAY</a>.
       </div>
- <?php foot('footer700');?>
+  </td>
+	  <td class="menuPos">
+		<div  class="menu">
+		<?php menu();?>
+		</div>
+	  </td>
+	</tr>
+	</table>
+       </div><!-- #content -->
+      <div id="footer">
+           <?php foot();?>
+      </div><!-- #footer -->
+    </div><!-- #wrapper -->
+</body>
+</html>

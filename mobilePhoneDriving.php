@@ -1,5 +1,13 @@
 <?php require "funcz.php";
-print top("Mobile Phone  Driving");?>
+head("Mobile a Phone When Driving");?>
+   <div id="wrapper">
+      <div id="header">
+          <?php banner(); ?>
+      </div><!-- #header -->
+      <div id="content">
+        <table width="100%">
+          <tr>
+            <td>
 <div class="main">
     <div class="strap0">
         <span class="strap1">&quot;The evidence of the police can oftern be</span>
@@ -7,7 +15,6 @@ print top("Mobile Phone  Driving");?>
          <br/>
         <span class="strap2">by cross-examination.&quot;</span>
       </div>
-      <?php contactBar();?>
           <h1>  Using Your Mobile Phone When Driving</h1>
            It is an offence to fail to be in proper control of a motor vehicle.
          This legislation is supplemented by specific provisions relating to the use of mobile telephones whilst driving.
@@ -26,4 +33,18 @@ print top("Mobile Phone  Driving");?>
            <br/>  <br/>
          Do not face this offence alone, contact us immediately.
       </div>
- <?php foot('footer600');?>
+	   </td>
+	  <td class="menuPos">
+		<div  class="menu">
+		<?php menu();?>
+		</div>
+	  </td>
+	</tr>
+	</table>
+       </div><!-- #content -->
+      <div id="footer">
+           <?php foot();?>
+      </div><!-- #footer -->
+    </div><!-- #wrapper -->
+</body>
+</html>

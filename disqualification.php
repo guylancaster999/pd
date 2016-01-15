@@ -1,12 +1,23 @@
 <?php require "funcz.php";
-print top("Disqualifications");?>
+	head("Dangerous Driving");?>
+    <div id="wrapper">
+
+      <div id="header">
+          <?php banner(); ?>
+      </div><!-- #header -->
+
+      <div id="content">
+        <table width="100%">
+          <tr>
+            <td>
+       
           <div class="main">
             <div class="strap0">
               <span class="strap2">&quot;A disqualification can have far reaching effects often</span>
               <br/>
               <span class="strap2">costing you your job,business etc. <span class="strap1">We can help&quot;</span>
               </div>
-            <?php contactBar();?>
+
        <h1>Disqualification</h1>
         Disqualification is an order of the court and driving whilst disqualified is considered very seriously by the courts.
         <br/>
@@ -31,5 +42,10 @@ print top("Disqualifications");?>
         Special Reasons could include shortness of distance driven, driving because of medical emergency, laced drinks.   <br/>
         <br/>
       </div>
-<?php
-print foot("footer700");?>
+	  
+
+	  
+	  
+	  
+	  
+	  

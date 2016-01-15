@@ -1,5 +1,15 @@
 <?php require "funcz.php";
-print top("Dangerous Driving");?>
+	head("Dangerous Driving");?>
+    <div id="wrapper">
+
+      <div id="header">
+          <?php banner(); ?>
+      </div><!-- #header -->
+
+      <div id="content">
+        <table width="100%">
+          <tr>
+            <td>
           <div class="main">
             <div class="strap0">
               <span class="strap2">&quot;This is one of the most serious motoring offences</span>
@@ -7,7 +17,6 @@ print top("Dangerous Driving");?>
 			        <span class="strap1">you really do need help</span>
               <span class="strap2">if the police charge you with this.&quot;</span>
               </div>
-              <?php contactBar();?>
            <h1>Dangerous Driving</h1>
 This is a serious offence and you should not think about facing this charge alone. There is a risk that the court will decline jurisdiction and send the case to the Crown Court for trial before a judge and jury.
 <br/>
@@ -30,6 +39,22 @@ The court will look at all the features of the offence, we would look to find fa
 We will provide objective practical advice and assistance, and understanding counsel.
 <br/>
 <br/>
-Do not face this offence alone, contact us immediately
+Do not face this offence alone, <A href="contact.php">contact us</a> immediately.
       </div>
-<?php print foot("footer700");?>
+	  
+	   </td>
+
+	  <td class="menuPos">
+		<div   class="menu">
+		<?php menu();?>
+		</div>
+	  </td>
+	</tr>
+	</table>
+       </div><!-- #content -->
+      <div id="footer">
+           <?php foot();?>
+      </div><!-- #footer -->
+    </div><!-- #wrapper -->
+</body>
+</html>

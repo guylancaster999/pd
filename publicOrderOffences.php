@@ -1,8 +1,16 @@
 <?php require "funcz.php";
-print top("Public Order Offences");?>
-<div class="main">
+head("Public Order Offences");?>
+    <div id="wrapper">
 
-      <?php contactBar();?>
+      <div id="header">
+          <?php banner(); ?>
+      </div><!-- #header -->
+
+      <div id="content">
+        <table width="100%">
+          <tr>
+            <td>
+			  <div class="main">
           <h1>Public Order Offences</h1>
  These offences are increasingly common in our heavily monitored and patrolled town centres.
  The prosecution of these offences can be said to arise from a stressed binge drinking culture where public spaces are covered by sophisticated closed circuit cameras, and private spaces controlled by private security firms.
@@ -175,4 +183,19 @@ print top("Public Order Offences");?>
 <h2>OFFENCES RELATING TO FIREARMS</h2>
  This is an evolving area of law, currently under statutory reform, if you are charged with any of these offences, <A href="contact.php"> contact us</a> immediately.
         </div>
- <?php foot('footer3000');?>
+	  </td>
+
+	  <td class="menuPos">
+		<div   class="menu">
+		<?php menu();?>
+		</div>
+	  </td>
+	</tr>
+	</table>
+       </div><!-- #content -->
+      <div id="footer">
+           <?php foot();?>
+      </div><!-- #footer -->
+    </div><!-- #wrapper -->
+</body>
+</html>

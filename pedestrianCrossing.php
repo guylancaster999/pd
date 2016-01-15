@@ -1,8 +1,16 @@
 <?php require "funcz.php";
-print top("Pedestrian Crossing");?>
+head("Pedestrian Crossing");?>
+   <div id="wrapper">
+      <div id="header">
+          <?php banner(); ?>
+      </div><!-- #header -->
+      <div id="content">
+        <table width="100%">
+          <tr>
+            <td>
 <div class="main">
-       <?php contactBar();?>
-          <h1>Pedestrian Crossing (failing to accord precedence)</h1>
+        
+    <h1>Pedestrian Crossing (failing to accord precedence)</h1>
    It is an offence for a driver of any vehicle to fail to accord precedence to a pedestrian within the limits of an uncontrolled pedestrian crossing.
   <br/>  <br/>
   The penalties include; a fine of £1000.00, a disqualification for any period/ until a test is past. Must endorse unless special reasons can be found to avoid endorsement. 3 points and £60.00 fixed penalty.
@@ -16,4 +24,20 @@ print top("Pedestrian Crossing");?>
   We will provide objective practical advice and assistance, and understanding counsel.
     <br/>  <br/>
   Do not face this offence alone, contact us immediately.  </div>
- <?php foot('footer700');?>
+	    </td>
+	  <td class="menuPos">
+		<div  class="menu">
+		<?php menu();?>
+		</div>
+	  </td>
+	</tr>
+	</table>
+       </div><!-- #content -->
+      <div id="footer">
+           <?php foot();?>
+      </div><!-- #footer -->
+    </div><!-- #wrapper -->
+</body>
+</html>	
+  
+  

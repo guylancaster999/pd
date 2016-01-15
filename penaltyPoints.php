@@ -1,5 +1,13 @@
 <?php require "funcz.php";
-print top("Penalty Points");?>
+	head("Penalty Points");?>
+    <div id="wrapper">
+      <div id="header">
+          <?php banner(); ?>
+      </div><!-- #header -->
+      <div id="content">
+        <table width="100%">
+          <tr>
+            <td>
  <div class="main">
  <div class="strap0">
               <span class="strap2">&quot;There are certain ways round them, but you need to know</span>
@@ -7,8 +15,8 @@ print top("Penalty Points");?>
               <span class="strap2">what you are doing.</span>
               <span class="strap1">That's where we come in.&quot;</span>
             </div>
-            <?php contactBar();?>
-          <h1>Penalty Points</h1>
+
+			<h1>Penalty Points</h1>
  The majority of motoring offences carry penalty points. These can range between three and ten in number.
 		<br/>
      		<br/>
@@ -45,7 +53,18 @@ New Drivers face a different problem.
     There are certain ways round it but you need to know what you are doing.
     In any of these situations, <a href="contact.php">contact us</a> AS SOON AS POSSIBLE.
     </div>
-			<br/>
-          <br/>
-      </div>
- <?php foot('footer700');?>
+ </td>
+	  <td class="menuPos">
+		<div   class="menu">
+		<?php menu();?>
+		</div>
+	  </td>
+	</tr>
+	</table>
+       </div><!-- #content -->
+      <div id="footer">
+           <?php foot();?>
+      </div><!-- #footer -->
+    </div><!-- #wrapper -->
+</body>
+</html>

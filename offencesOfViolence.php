@@ -1,7 +1,16 @@
-<?php require "funcz.php";
-print top("Offences of Violence");?>
+<?php 
+require "funcz.php";
+head("Offences of Violence");?>
+   <div id="wrapper">
+      <div id="header">
+          <?php banner(); ?>
+      </div><!-- #header -->
+      <div id="content">
+        <table width="100%">
+          <tr>
+            <td>
+		
        <div class="main">
-          <?php contactBar();?>
            <h1>Offences of Violence</h1>
  The law governing the prosecution of offences of violence is as complex and twisted as other areas of the law.
  There is no statutory definition of what actually amounts to an assault and  battery.
@@ -10,7 +19,9 @@ print top("Offences of Violence");?>
 <br/>
 <br/>
  The disparity on sentence is ill thought out.
- Common assault punishable with 6 months imprisonment, s,47 punished by 5 years, the difference between the assaults can be slight but the sentence far greater if charged with the 47.  The s.20 assault is determined as a far greater charge yet the same sentence can be imposed in court 5 years imprisonment. The only difference we could argue between a s18 and s,20 wounding allegation is the alleged intent , but the sentencing powers of the court jumps from 5 years to life imprisonment.
+ Common assault punishable with 6 months imprisonment, s,47 punished by 5 years, the difference between the assaults can be slight but the sentence far greater if charged with the 47.  
+ The s.20 assault is determined as a far greater charge yet the same sentence can be imposed in court 5 years imprisonment. 
+ The only difference we could argue between a s18 and s20 wounding allegation is the alleged intent, but the sentencing powers of the court jumps from 5 years to life imprisonment.
  <br/>
  <br/>
  The basics definitions of the offences charged are as follows
@@ -174,6 +185,20 @@ print top("Offences of Violence");?>
  Often in the course of an investigation the police will warn under the prevention from harassment and have you sign their notebook.  This will be used in any subsequent court proceedings.
  <br/>
  <br/>
- If you are spoken to by the police about these matters, ring us immediately
+ If you are spoken to by the police about these matters, <A href="contact.php">ring us</a> immediately.
       </div>
-<?php foot("footer2200");
+	   </td>
+	  <td class="menuPos">
+		<div  class="menu">
+		<?php menu();?>
+		</div>
+	  </td>
+	</tr>
+	</table>
+       </div><!-- #content -->
+      <div id="footer">
+           <?php foot();?>
+      </div><!-- #footer -->
+    </div><!-- #wrapper -->
+</body>
+</html>	

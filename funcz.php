@@ -1,16 +1,5 @@
 <?php
-function contactBar()
-{
-    print '<img src="img/border.jpg" alt="" class="wideBar">
-    <br/>
-     <div class="bar">
-             <a href="index.php" title="PDS Home Page">Home</a> |
-             <a href="contact.php" title="Contact PDS">Contact us</a>
-        </div>
-        <hr/>';
-        return;
-}
-function top($pgTtl)
+function head($pgTtl)
 {
 print '<!DOCTYPE html>
     <html lang="en">
@@ -22,9 +11,17 @@ print '<!DOCTYPE html>
       <link rel="stylesheet" href="css/main.css" />
       <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
       <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    </head>
-    <body>
-        <div class="logo">
+      <!--[if lt IE 7]>
+        <style type="text/css">
+          #wrapper { height:100%; }
+        </style>
+      <![endif]-->
+    </head>';
+return;
+}
+function banner()
+{
+  print'<div class="logo">
               <a href="#" title="Paul Darnborough Solicitors">
                 <img src="img/logo.jpg" alt="Paul Darnborough Solicitors"/>
               </a>
@@ -33,13 +30,20 @@ print '<!DOCTYPE html>
             <a href="#" title="07811329055">
                 <img src="img/slogan.jpg" alt="07811329055"/>
             </a>
-          </div>';
+          </div>
+          <div class="barPos">
+          <img src="img/border.jpg" alt="" class="wideBar">
+           <div class="bar">
+                  <a href="index.php" title="PDS Home Page">Home</a> |
+                   <a href="contact.php" title="Contact PDS">Contact us</a>
+            </div> <!--bar-->
+          <hr/>
+          </div> <!--barpos-->    ';
 return;
 }
-function foot($cls)
+function menu()
 {
-		print' <div class="menu">
-			<div class="menuHdr">Driving Offences</div>
+	print'<div class="menuHdr">Driving Offences</div>
             <div><a href="rta.php">Road Traffic Accidents</a></div>
             <div><a href="carelessDriving.php">Careless Driving</a></div>
             <div><a href="dangerousDriving.php">Dangerous Driving</a></div>
@@ -66,23 +70,16 @@ function foot($cls)
             <div><a href="revenueCustomOffences.php">Revenue &amp; Custom Offences</a></div>
             <div><a href="footballSpectators.php">Football Spectators</a></div>
             <br  />
-	        <div>
-			<div class="menuHdr">Information</div>
-            <div><a href="contact.php" title="Contact us">Contact Us</a></div>
-             <br/>
-            </div>
-			           <br/>
-            </div>
-      <div class="'.$cls.'">
-          <img src="img/border.jpg" alt="" class="wideBar">
-          <span class="footText">&copy; Copyright 2010-2016 P.D. Solicitors registration number 5533388.
-           Regulated by the Solicitors Regulation Authority and the Solicitors\' Code of Conduct 2007.
-          For more information and a copy of the Code of Conduct, visit the <a href="http://www.sra.org.uk">Authority\'s website</a>.
-           We are regulated by the the Law society, for more information, click <a href="http://www.lawsociety.org.uk/home">here</a>.
-           Our registered address is on our <a href="contact.php">contact page</a>.</span>
-        </div>
-
-	 </body>
-</html>';
-return;
+	          <div class="menuHdr">Information</div>
+          <div><a href="contact.php" title="Contact us">Contact Us</a></div>';
+}
+function foot()
+{
+  print ' <img src="img/border.jpg" alt="" class="wideBar">
+          <div class="footText">&copy; Copyright 2010-2016 P.D. Solicitors registration number 5533388.
+           Regulated by the Solicitors Regulation Authority and the Solicitors\' Code of Conduct 2007.<br/>
+          For more information and a copy of the Code of Conduct, visit the Solicitors Regulation Authority\'s<a href="http://www.sra.org.uk"> website</a>.<br/>
+           We are regulated by the the Law society, for more information, click <a href="http://www.lawsociety.org.uk/home">here</a>.<br/>
+           Our registered address is on our <a href="contact.php">contact page</a>.</div>      ';
+      return;
 }

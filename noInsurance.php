@@ -1,5 +1,15 @@
 <?php require "funcz.php";
-print top("No Insurance");?>
+	head("Dangerous Driving");?>
+    <div id="wrapper">
+
+      <div id="header">
+          <?php banner(); ?>
+      </div><!-- #header -->
+
+      <div id="content">
+        <table width="100%">
+          <tr>
+            <td>
            <div class="main">
             <div class="strap0">
               <span class="strap1">&quot;You need expert Help</span>
@@ -7,8 +17,7 @@ print top("No Insurance");?>
               <br/>
               <span class="strap2">offence involving no insurance.&quot;</span>
               </div>
-            <?php contactBar();?>
-                 <h1>Driving Without Insurance</h1>
+              <h1>Driving Without Insurance</h1>
 			Using a motor vehicle on a road or other public place without a policy of insurance is a criminal offence which can attract a fine, 6-8 points, or a discretionary disqualification, including a retest.
            <br/>
            <br/>
@@ -28,6 +37,19 @@ print top("No Insurance");?>
            <br/>
 			<br/>
 			Do not face this offence alone, contact us immediately.
-       
-      </div>
-<?php print foot("footer700");?>
+         </div>
+		 	   </td>
+	  <td class="menuPos">
+		<div   class="menu">
+		<?php menu();?>
+		</div>
+	  </td>
+	</tr>
+	</table>
+       </div><!-- #content -->
+      <div id="footer">
+           <?php foot();?>
+      </div><!-- #footer -->
+    </div><!-- #wrapper -->
+</body>
+</html>

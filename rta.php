@@ -1,17 +1,43 @@
 <?php require "funcz.php";
-print top("Road Traffic Accident");?>
- <div class="main">
-            <div class="strap0">
+head("Road Traffic Accidents (RTAs)");?>
+    <div id="wrapper">
+
+      <div id="header">
+          <?php banner(); ?>
+      </div><!-- #header -->
+
+      <div id="content">
+        <table width="100%">
+          <tr>
+            <td>
+			  <div class="main">
+             <div class="strap0">
               <span class="strap1">&quot;We are here to help</span>
               <span class="strap2">you to pursuade the courtof your version of events, and</span>
               <br/>
               <span class="strap2">to accept that the evidence against you is weak and unsafe to find you guilty&quot;</span>
               </div>
-            <?php contactBar();?>
           <h1>Road Traffic Accidents</h1>
           <h2>Claim the compensation you deserve</h2>
           If you are involved in a road traffic accident, contact our sister firm Simple to Claim
            <br/>
           <br/>
-      </div>
- <?php foot('footer700');?>
+      </div> <!-- main-->
+	   </td>
+
+	  <td class="menuPos">
+		<div   class="menu">
+		<?php menu();?>
+		</div>
+	  </td>
+	</tr>
+	</table>
+       </div><!-- #content -->
+      <div id="footer">
+           <?php foot();?>
+      </div><!-- #footer -->
+    </div><!-- #wrapper -->
+</body>
+</html>
+ 
+ 

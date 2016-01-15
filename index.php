@@ -1,5 +1,15 @@
-<?php require "funcz.php";
-print top("Homepage");?>
+
+<?php 
+require "funcz.php";
+head("Homepage");?>
+   <div id="wrapper">
+      <div id="header">
+          <?php banner(); ?>
+      </div><!-- #header -->
+      <div id="content">
+        <table width="100%">
+          <tr>
+            <td>
 <div class="main">
             <div class="strap0">
               <span class="strap1">&quot;We are here to help</span>
@@ -7,7 +17,6 @@ print top("Homepage");?>
               <br/>
               <span class="strap2">to accept that the evidence against you is weak and unsafe to find you guilty&quot;</span>
               </div>
-            <?php contactBar();?>
             <h1>Welcome to P.D. Solicitors</h1>
           <h2>Private Client Discreet &amp; Professional Legal Representation</h2>
           Thank you for visiting this web site.
@@ -41,4 +50,18 @@ print top("Homepage");?>
           <br/>
           <br/>
       </div>
-<?php foot('footer700');?>
+   </td>
+	  <td class="menuPos">
+		<div  class="menu">
+		<?php menu();?>
+		</div>
+	  </td>
+	</tr>
+	</table>
+       </div><!-- #content -->
+      <div id="footer">
+           <?php foot();?>
+      </div><!-- #footer -->
+    </div><!-- #wrapper -->
+</body>
+</html>	

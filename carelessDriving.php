@@ -1,5 +1,15 @@
 <?php require "funcz.php";
-print top("Careless Driving");?>
+	head("Careless Driving");?>
+    <div id="wrapper">
+
+      <div id="header">
+          <?php banner(); ?>
+      </div><!-- #header -->
+
+      <div id="content">
+        <table width="100%">
+          <tr>
+            <td>
        <div class="main">
             <div class="strap0">
               <span class="strap1">&quot;We will investigate</span>
@@ -7,7 +17,7 @@ print top("Careless Driving");?>
               <br/>
               <span class="strap2">your behalf and advise on the strength of the police case&quot;</span>
               </div>
-               <?php contactBar();?>
+      
            <h1>Careless Driving</h1>
          The penalty for this offence is 3-9 penalty points, a possible disqualification and a fine.
 		  <br/>
@@ -28,4 +38,22 @@ print top("Careless Driving");?>
 			  <br/>
 			Do not face this offence alone, contact us immediately.
       </div>
-<?php foot("footer700");
+
+	   </td>
+
+	  <td class="menuPos">
+		<div   class="menu">
+		<?php menu();?>
+		</div>
+	  </td>
+	</tr>
+	</table>
+       </div><!-- #content -->
+      <div id="footer">
+           <?php foot();?>
+      </div><!-- #footer -->
+    </div><!-- #wrapper -->
+</body>
+</html>
+ 
+  

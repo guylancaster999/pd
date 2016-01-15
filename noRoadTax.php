@@ -1,9 +1,16 @@
-<?php require "funcz.php";
-print top("No Road Tax");?>
-<div class="main">
-      <?php contactBar();?>
-          <h1>       No Tax - Road Fund ( Excise License)</h1>
-
+<?php 
+require "funcz.php";
+head("No Road Tax");?>
+   <div id="wrapper">
+      <div id="header">
+          <?php banner(); ?>
+      </div><!-- #header -->
+      <div id="content">
+        <table width="100%">
+          <tr>
+            <td>
+			<div class="main">
+          <h1>No Tax - Road Fund (Excise License)</h1>
           It is an offence to use or keep on a public road a mechanically propelled vehicle when no excise license is in force.
           <br/>
           <br/>
@@ -17,5 +24,21 @@ print top("No Road Tax");?>
           The use of a vehicle by an employee can be arguably a defence as to prosecute would amount to oppression.
           <br/>
           <br/>
-          If you are in any confusion or doubt contact us in total confidence.  </div>
- <?php foot('footer700');?>
+          If you are in any confusion or doubt, <A href="contact.php">contact us</a> in total confidence.</div>
+	    </td>
+	  <td class="menuPos">
+		<div  class="menu">
+		<?php menu();?>
+		</div>
+	  </td>
+	</tr>
+	</table>
+       </div><!-- #content -->
+      <div id="footer">
+           <?php foot();?>
+      </div><!-- #footer -->
+    </div><!-- #wrapper -->
+</body>
+</html>	
+  
+		  

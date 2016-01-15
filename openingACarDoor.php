@@ -1,8 +1,15 @@
 <?php require "funcz.php";
-print top("Driving While Disqualified");?>
+head("Opening a Car Door");?>
+   <div id="wrapper">
+      <div id="header">
+          <?php banner(); ?>
+      </div><!-- #header -->
+      <div id="content">
+        <table width="100%">
+          <tr>
+            <td>
 <div class="main">
-     <?php contactBar();?>
-          <h1>Opening a Car Door</h1>
+        <h1>Opening a Car Door</h1>
         It is an offence to open a door of a motor vehicle or trailer on a road so as to cause injury or danger.
         <br/><br/>
         Sentences available include a fine of up to £1000.00, or a fixed penalty.
@@ -16,4 +23,18 @@ print top("Driving While Disqualified");?>
         We will provide objective practical advice and assistance, and understanding counsel.
         <br/><br/>
         Do not face this offence alone, contact us immediately.    </div>
- <?php foot('footer700');?>
+	    </td>
+	  <td class="menuPos">
+		<div  class="menu">
+		<?php menu();?>
+		</div>
+	  </td>
+	</tr>
+	</table>
+       </div><!-- #content -->
+      <div id="footer">
+           <?php foot();?>
+      </div><!-- #footer -->
+    </div><!-- #wrapper -->
+</body>
+</html>	
