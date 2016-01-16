@@ -73,10 +73,10 @@ function menu()
             <div><a href="speedingOffences.php">Speeding Offences</a></div>
             <div><a href="drivingWhileDisqualified.php">Driving While Disqualified</a> </div>
             <div><a href="openingACarDoor.php">Opening a Car Door</a></div>
-            <div><a href="pedestrianCrossing.php">Pedestrian Crossing (failing<br/>to accord precedence)</a></div>
-			      <div><a href="noRoadTax.php">No Road Tax</a></div>
-		        <div> <a href="noMOT.php" title="No MOT Certificate">No MOT</a></div>
-		  		  <br/>
+            <div><a href="pedestrianCrossing.php">Pedestrian Crossing (failing to accord precedence)</a></div>
+		   <div><a href="noRoadTax.php">No Road Tax</a></div>
+	        <div> <a href="noMOT.php" title="No MOT Certificate">No MOT</a></div>
+    		  <br/>
             <div class="menuHdr">Criminal Offences</div>
             <div><a href="offencesOfViolence.php">Offences of Violence</a></div>
             <div><a href="publicOrderOffences.php">Public Order Offences</a></div>
@@ -91,9 +91,9 @@ function foot()
 {
   print ' <img src="img/border.jpg" alt="" class="wideBar">
           <div class="footText">&copy; Copyright 2010-2016 P.D. Solicitors registration number 5533388.
-           Regulated by the Solicitors Regulation Authority and the Solicitors\' Code of Conduct 2007.<br/>
-          For more information and a copy of the Code of Conduct, visit the Solicitors Regulation Authority\'s<a href="http://www.sra.org.uk"> website</a>.<br/>
-           We are regulated by the the Law society, for more information, click <a href="http://www.lawsociety.org.uk/home">here</a>.<br/>
+           Regulated by the Solicitors Regulation Authority and the Solicitors\' Code of Conduct 2007.
+          For more information and a copy of the Code of Conduct, visit the Solicitors Regulation Authority\'s<a href="http://www.sra.org.uk"> website</a>.
+           We are regulated by the the Law society, for more information, click <a href="http://www.lawsociety.org.uk/home">here</a>.
            Our registered address is on our <a href="contact.php">contact page</a>.</div>      ';
       return;
 }

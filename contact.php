@@ -2,7 +2,7 @@
 require "page.php";
 $pg= new pageCls("Contact Us");
 ?>
-<body>	
+<body>
     <div id="wrapper">
       <div id="header">
           <?php $pg->banner(); ?>
@@ -17,7 +17,7 @@ $pg= new pageCls("Contact Us");
 			 <tr>
 			   <td>Telelephone</td>
 			   <td>:</td>
-			   <td>07811 329055</td>
+			   <td><a href="tel:+447811329055">07811 329055</a></td>
 			 </tr>
 			 <tr>
 			   <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
@@ -33,7 +33,7 @@ $pg= new pageCls("Contact Us");
 			 <tr>
 			   <td>Email</td>
 			   <td>:</td>
-			   <td><A href="mailto:info@pdsolicitors.co.uk">info@pdsolicitors.co.uk</a></td>
+			   <td><a href="mailto:info@pdsolicitors.co.uk">info@pdsolicitors.co.uk</a></td>
 			   </tr>
 			 </table>
 		</div>
@@ -52,4 +52,4 @@ $pg= new pageCls("Contact Us");
       </div><!-- #footer -->
     </div><!-- #wrapper -->
 </body>
-</html>	
+</html>
