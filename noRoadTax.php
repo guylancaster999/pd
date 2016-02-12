@@ -6,7 +6,7 @@ $pg= new pageCls("No Tax - Road Fund (Excise License)");?>
           <?php $pg->banner(); ?>
       </div><!-- #header -->
       <div id="content">
-        <table width="100%">
+        <table class="wide">
           <tr>
             <td>
 			<div class="main">
@@ -14,7 +14,7 @@ $pg= new pageCls("No Tax - Road Fund (Excise License)");?>
           It is an offence to use or keep on a public road a mechanically propelled vehicle when no excise license is in force.
           <br/>
           <br/>
-          The penalties include a fine of £1000, £2500 or 5 times the value of the vehicle, which ever is the greater.
+          The penalties include a fine of &pound;1,000, &pound;2,500 or 5 times the value of the vehicle, which ever is the greater.
           <br/>
           <br/>
           The charge includes not only the use but the driver's mere presence of the car on the road.
@@ -41,5 +41,3 @@ $pg= new pageCls("No Tax - Road Fund (Excise License)");?>
     </div><!-- #wrapper -->
 </body>
 </html>	
-  
-		  

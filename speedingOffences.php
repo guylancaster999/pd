@@ -6,10 +6,10 @@ $pg= new pageCls("Speeding Offences");?>
           <?php $pg->banner(); ?>
       </div><!-- #header -->
       <div id="content">
-        <table width="100%">
+        <table class="wide">
           <tr>
             <td>
-<div class="main">
+		<div class="main">
     <div class="strap0">
         <span class="strap1">&quot;It is vitally important</span>
         <span class="strap2">to know where the prosecution weaknesses lie </span>

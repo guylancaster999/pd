@@ -6,7 +6,7 @@ $pg= new pageCls("Driving Without Insurance");?>
           <?php $pg->banner(); ?>
       </div><!-- #header -->
       <div id="content">
-        <table width="100%">
+        <table class="wide">
           <tr>
             <td>
            <div class="main">

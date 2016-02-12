@@ -1,13 +1,12 @@
 <?php 
 require "page.php";
 $pg= new pageCls("Offences of Violence");?>
- 
    <div id="wrapper">
       <div id="header">
           <?php $pg->banner(); ?>
       </div><!-- #header -->
       <div id="content">
-        <table width="100%">
+        <table class="wide">
           <tr>
             <td>
 		       <div class="main">

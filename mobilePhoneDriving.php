@@ -6,7 +6,7 @@ $pg= new pageCls("Mobile a Phone When Driving");?>
           <?php $pg->banner(); ?>
       </div><!-- #header -->
       <div id="content">
-        <table width="100%">
+        <table class="wide">
           <tr>
             <td>
 <div class="main">
@@ -16,10 +16,10 @@ $pg= new pageCls("Mobile a Phone When Driving");?>
          <br/>
         <span class="strap2">by cross-examination.&quot;</span>
       </div>
-          <?php $pg->displayHeader();?>
-           It is an offence to fail to be in proper control of a motor vehicle.
-         This legislation is supplemented by specific provisions relating to the use of mobile telephones whilst driving.
-           <br/>  <br/>
+       <?php $pg->displayHeader();?>
+       It is an offence to fail to be in proper control of a motor vehicle.
+       This legislation is supplemented by specific provisions relating to the use of mobile telephones whilst driving.
+       <br/>  <br/>
          To be convicted of this offence the prosecution must prove that a driver drove a motor vehicle whilst using a hand held mobile phone.
            <br/>  <br/>
          A driver can be convicted of this offence if the telephone was not hand held, if it can be shown that the driver was not in proper control of a motor vehicle.

@@ -6,14 +6,14 @@ $pg= new pageCls("Opening a Car Door");?>
           <?php $pg->banner(); ?>
       </div><!-- #header -->
       <div id="content">
-        <table width="100%">
+        <table class="wide">
           <tr>
             <td>
 		<div class="main">
         <?php $pg->displayHeader();?>
         It is an offence to open a door of a motor vehicle or trailer on a road so as to cause injury or danger.
         <br/><br/>
-        Sentences available include a fine of up to £1000.00, or a fixed penalty.
+        Sentences available include a fine of up to &pound;1000.00, or a fixed penalty.
         <br/><br/>
         The offence consists of opening a car door so as to cause danger or injury to any person.
         If a child opened a door and a parent permitted the door to be opened, then a parent could be held responsible for permitting the offence to have been permitted.

@@ -7,7 +7,7 @@ $pg= new pageCls("Failing to Stop");
           <?php $pg->banner(); ?>
       </div><!-- #header -->
       <div id="content">
-        <table width="100%">
+        <table class="wide">
           <tr>
             <td>
 				<div class="main">
@@ -47,7 +47,3 @@ $pg= new pageCls("Failing to Stop");
     </div><!-- #wrapper -->
 </body>
 </html>
-
-	  
-	  
-	  

@@ -6,14 +6,14 @@ $pg= new pageCls("No MOT Certificate");?>
           <?php $pg->banner(); ?>
       </div><!-- #header -->
       <div id="content">
-        <table width="100%">
+        <table class="wide">
           <tr>
             <td>
 			<div class="main">
          <?php $pg->displayHeader();?>
           It is an offence to use or permit a motor vehicle to be on a road first registered 3 or more years previously without a test certificate in force.
           <br/><br/>
-          Maximum penalty fine £1000.00
+          Maximum penalty fine &pound;1,000.00
         <br/><br/>
           The mere presence of a vehicle on a road can constitute using.
            A vehicle should have a test certificate unless it is impossible for the driver to drive the vehicle.
@@ -22,11 +22,10 @@ $pg= new pageCls("No MOT Certificate");?>
         </div>
  	    </td>
 		<td  class="tdHbar"><?php $pg->hbar();?></td>
-		
-	  <td class="menuPos">
-		<div  class="menu">
-		<?php $pg->menu();?>
-		</div>
+		 <td class="menuPos">
+			<div  class="menu">
+			<?php $pg->menu();?>
+			</div>
 	  </td>
 	</tr>
 	</table>

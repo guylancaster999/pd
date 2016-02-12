@@ -6,16 +6,16 @@ $pg= new pageCls("Pedestrian Crossing (failing to accord precedence)");?>
           <?php $pg->banner(); ?>
       </div><!-- #header -->
       <div id="content">
-        <table width="100%">
+        <table class="wide">
           <tr>
             <td>
 				<div class="main">
 				<?php $pg->displayHeader("Pedestrian Crossing (failing to accord precedence)");?>
 				   It is an offence for a driver of any vehicle to fail to accord precedence to a pedestrian within the limits of an uncontrolled pedestrian crossing.
 				  <br/>  <br/>
-				  The penalties include; a fine of £1000.00, a disqualification for any period until a test is past. 
+				  The penalties include; a fine of &pound;1000.00, a disqualification for any period until a test is past. 
 				  Must endorse unless special reasons can be found to avoid endorsement. 
-				  3 points and £60.00 fixed penalty.
+				  3 points and &pound;60.00 fixed penalty.
 					<br/>  <br/>
 				  The law imposes a very strict duty on the driver. 
 				  A realistic defence would have to amount to circumstances beyond the control of the driver. 

@@ -7,7 +7,7 @@ $pg= new pageCls("Dangerous Driving");
           <?php $pg->banner(); ?>
       </div><!-- #header -->
       <div id="content">
-        <table width="100%">
+        <table class="wide">
           <tr>
             <td>
           <div class="main">
@@ -18,7 +18,8 @@ $pg= new pageCls("Dangerous Driving");
               <span class="strap2">if the police charge you with this.&quot;</span>
               </div>
            <?php $pg->displayHeader();?>
-			This is a serious offence and you should not think about facing this charge alone. There is a risk that the court will decline jurisdiction and send the case to the Crown Court for trial before a judge and jury.
+			This is a serious offence and you should not think about facing this charge alone. 
+			There is a risk that the court will decline jurisdiction and send the case to the Crown Court for trial before a judge and jury.
 			<br/>
 			<br/>
 			The legal definition is a 2 stage process;

@@ -6,16 +6,16 @@ $pg= new pageCls("Totting Up");?>
           <?php $pg->banner(); ?>
       </div><!-- #header -->
       <div id="content">
-        <table width="100%">
+        <table class="wide">
           <tr>
             <td>
 		<div class="main">
 			<div class="strap0">
-			<span class="strap1">&quot;</span>
-			<span class="strap1">We have an extremely good record</span>
-			<span class="strap2">of successfully pleading exceptional</span>
-			<br/>
-			<span class="strap2">hardship cases and also using wider grounds to avoid totting up bans.&quot;</span>
+				<span class="strap1">&quot;</span>
+				<span class="strap1">We have an extremely good record</span>
+				<span class="strap2">of successfully pleading exceptional</span>
+				<br/>
+				<span class="strap2">hardship cases and also using wider grounds to avoid totting up bans.&quot;</span>
 		  </div>
           <?php $pg->displayHeader();?>
           If you get to a position when you have 12 relevant points on your licence, you will be liable to a <span class="mainGreen">MINIMUM DISQUALIFICATION OF SIX MONTHS</span>.
