@@ -2,21 +2,21 @@
 require "page.php";
 $pg= new pageCls("Penalty Points");
 ?>
-    <div id="wrapper">
+<div id="wrapper">
       <div id="header">
           <?php $pg->banner(); ?>
       </div><!-- #header -->
       <div id="content">
-        <table class="wide">
+       <table class="wide">
           <tr>
             <td>
 			 <div class="main">
-			 <div class="strap0">
-              <span class="strap2">&quot;There are certain ways round them, but you need to know</span>
-              <br/>
-              <span class="strap2">what you are doing.</span>
-              <span class="strap1">That's where we come in.&quot;</span>
-            </div>
+				 <div class="strap0">
+				  <span class="strap2">&quot;There are certain ways round them, but you need to know</span>
+				  <br/>
+				  <span class="strap2">what you are doing.</span>
+				  <span class="strap1">That's where we come in.&quot;</span>
+     			</div>
 			<?php $pg->displayHeader();?>
 			The majority of motoring offences carry penalty points. 
 			These can range between three and ten in number.
@@ -54,6 +54,7 @@ $pg= new pageCls("Penalty Points");
     There are certain ways round it but you need to know what you are doing.
     In any of these situations, <a href="contact.php">contact us</a> AS SOON AS POSSIBLE.
 	</div> 
+  </div> 
  </td> 
  <td  class="tdHbar"><?php $pg->hbar();?></td>
 	  <td class="menuPos">
@@ -63,10 +64,10 @@ $pg= new pageCls("Penalty Points");
 	  </td>
 	</tr>
 	</table>
-       </div><!-- #content -->
+   </div><!-- #content -->
       <div id="footer">
            <?php $pg->foot();?>
       </div><!-- #footer -->
-    </div><!-- #wrapper -->
+</div><!-- #wrapper -->
 </body>
 </html>

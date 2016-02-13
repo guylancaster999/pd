@@ -12,10 +12,8 @@ class pageCls
       <title>Paul Darnborough Solicitors - '.$this->pgTtl.'</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-      <meta name="keywords" content="Solicitor, Manchester,Driving Offences, Accidents, Careless Driving Dangerous Driving, Disqualification,
-			Insurance Offences Penalty Points, Traffic Lights, Totting Up, Drunk In Charge, Failure To Provide, Mobile Phones, Young Drivers, Speeding, Driving While Disqualified, Criminal Offences, Offences of Violence,
-			Public Order Offences, Criminal Damage, Drug Offences, Revenue &amp; Customes Offences" />
-      <meta name="description" content="Paul Darnborough Solicitors (Manchester) - '.$this->pgTtl.'" />
+      <meta name="keywords" content="Solicitor, Manchester, Oldham, Stockport, Bury, Salford, Cheshire, Driving Offences, Accidents, Careless Driving Dangerous Driving, Disqualification,Insurance Offences Penalty Points, Traffic Lights, Totting Up, Drunk In Charge, Failure To Provide, Mobile Phones, Young Drivers, Speeding, Driving While Disqualified, Criminal Offences, Offences of Violence, Public Order Offences, Criminal Damage, Drug Offences, Revenue &amp; Customes Offences" />
+      <meta name="description" content="Paul Darnborough Solicitors (Greater Manchester) - '.$this->pgTtl.'" /> 
       <link rel="stylesheet" href="css/main.css" />
       <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
       <link rel="icon" href="favicon.ico" type="image/x-icon" />
